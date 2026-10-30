@@ -172,6 +172,7 @@
   "emailNotRegistered": "该电子邮件地址尚未注册。",
   "pleaseEnterPassword": "请输入密码。",
   "invalidCredentials": "电子邮件或密码无效。",
+  "accountInactive": "您的账户尚未激活，请联系客服。",
   "legacyPasswordResetRequired": "登录前需要重置密码，请联系客服。",
   "enterEmergencyContactEmailAddr": "输入紧急联系人邮箱地址",
   "enterEmergencyContactName": "输入紧急联系人姓名",

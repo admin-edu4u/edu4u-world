@@ -172,6 +172,7 @@
   "emailNotRegistered": "Alamat emel tidak berdaftar.",
   "pleaseEnterPassword": "Sila masukkan kata laluan.",
   "invalidCredentials": "Emel atau kata laluan tidak sah.",
+  "accountInactive": "Akaun anda belum aktif. Sila hubungi sokongan.",
   "legacyPasswordResetRequired": "Kata laluan anda perlu ditetapkan semula sebelum log masuk. Sila hubungi sokongan.",
   "enterEmergencyContactEmailAddr": "Masukkan alamat emel kenalan kecemasan",
   "enterEmergencyContactName": "Masukkan nama kenalan kecemasan",

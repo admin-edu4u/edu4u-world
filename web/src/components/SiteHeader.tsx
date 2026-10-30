@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useMemberAuth } from "@/components/MemberAuthProvider";
 import { useSiteFlags, useT } from "@/components/LocaleProvider";
 
 /** Open SiteModals via custom events (shared with home #pathway CTAs). */
@@ -66,6 +68,16 @@ const exploreIcons = {
   ),
 };
 
+const ProfileIcon = ({ stroke = "#1F1F1F" }: { stroke?: string }) => (
+  <svg width="40" height="40" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+    <circle cx="13" cy="13" r="12" fill="#F6F6F6" stroke="#E4E4E4" />
+    <path
+      d="M17.9343 17.12C17.2995 15.9651 16.3083 15.0653 15.1202 14.5653C15.711 14.106 16.1475 13.4656 16.3677 12.7349C16.5879 12.0042 16.5807 11.2202 16.3471 10.494C16.1136 9.76775 15.6655 9.13609 15.0664 8.68848C14.4673 8.24087 13.7475 8 13.009 8C12.2705 8 11.5507 8.24087 10.9516 8.68848C10.3525 9.13609 9.90445 9.76775 9.67091 10.494C9.43737 11.2202 9.43019 12.0042 9.65039 12.7349C9.87059 13.4656 10.307 14.106 10.8978 14.5653C9.70976 15.0653 8.71857 15.9651 8.0838 17.12C8.04446 17.1855 8.01825 17.2586 8.00671 17.3349C7.99517 17.4111 7.99854 17.489 8.01663 17.5639C8.03471 17.6388 8.06714 17.7092 8.11198 17.7708C8.15682 17.8325 8.21316 17.8841 8.27764 17.9228C8.34213 17.9614 8.41345 17.9862 8.48737 17.9956C8.56128 18.0051 8.63628 17.9991 8.70791 17.9779C8.77953 17.9568 8.84632 17.9209 8.9043 17.8724C8.96228 17.824 9.01027 17.7639 9.04541 17.6959C9.88434 16.1927 11.3659 15.2962 13.009 15.2962C14.6522 15.2962 16.1337 16.1932 16.9726 17.6959C17.0488 17.8228 17.1696 17.9141 17.3095 17.9504C17.4494 17.9867 17.5975 17.9652 17.7224 17.8904C17.8472 17.8156 17.9392 17.6934 17.9787 17.5496C18.0183 17.4058 18.0023 17.2518 17.9343 17.12ZM10.6015 11.6488C10.6015 11.1553 10.7427 10.6728 11.0072 10.2624C11.2718 9.85197 11.6478 9.5321 12.0877 9.34322C12.5276 9.15433 13.0117 9.10491 13.4787 9.2012C13.9457 9.2975 14.3747 9.53518 14.7114 9.88419C15.0481 10.2332 15.2774 10.6779 15.3703 11.162C15.4632 11.6461 15.4155 12.1479 15.2333 12.6039C15.0511 13.0599 14.7425 13.4496 14.3466 13.7239C13.9507 13.9981 13.4852 14.1444 13.009 14.1444C12.3707 14.1437 11.7588 13.8805 11.3075 13.4127C10.8561 12.9448 10.6022 12.3105 10.6015 11.6488Z"
+      fill={stroke}
+    />
+  </svg>
+);
+
 export function SiteHeader({
   overlayHero = false,
 }: {
@@ -73,6 +85,8 @@ export function SiteHeader({
   overlayHero?: boolean;
 }) {
   const t = useT();
+  const router = useRouter();
+  const { member, logout } = useMemberAuth();
   const { careersHidden } = useSiteFlags();
   const [scrolled, setScrolled] = useState(false);
   const [exploreOpen, setExploreOpen] = useState(false);
@@ -122,6 +136,11 @@ export function SiteHeader({
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, []);
+
+  const onLogout = async () => {
+    await logout();
+    router.refresh();
+  };
 
   // Transparent at top; solid white after scroll. Never use drop shadows.
   // Dark photo heroes need light chrome while transparent; light heroes keep dark chrome.
@@ -214,26 +233,49 @@ export function SiteHeader({
           >
             <GlobeIcon stroke={useLightChrome ? "white" : "#1A124E"} />
           </button>
-          <span
-            className={useLightChrome ? "header-login cursor" : "header-login-active cursor"}
-            id="login_btn"
-            role="button"
-            tabIndex={0}
-            onClick={() => openEduModal("login")}
-            onKeyDown={(e) => e.key === "Enter" && openEduModal("login")}
-          >
-            {t("logIn")}
-          </span>
-          <span
-            className={`cursor text-center ${useLightChrome ? "header-started" : "header-started-active"}`}
-            id="join_btn"
-            role="button"
-            tabIndex={0}
-            onClick={() => openEduModal("signup")}
-            onKeyDown={(e) => e.key === "Enter" && openEduModal("signup")}
-          >
-            {t("join")}
-          </span>
+          {member ? (
+            <>
+              <Link
+                href="/characters"
+                className="ms-3 d-inline-flex"
+                id="profile_btn"
+                aria-label={t("myAccount")}
+                title={member.email}
+              >
+                <ProfileIcon />
+              </Link>
+              <button
+                type="button"
+                className={`ms-4 border-0 bg-transparent cursor ${useLightChrome ? "header-login" : "header-login-active"}`}
+                onClick={onLogout}
+              >
+                {t("logOut")}
+              </button>
+            </>
+          ) : (
+            <>
+              <span
+                className={useLightChrome ? "header-login cursor" : "header-login-active cursor"}
+                id="login_btn"
+                role="button"
+                tabIndex={0}
+                onClick={() => openEduModal("login")}
+                onKeyDown={(e) => e.key === "Enter" && openEduModal("login")}
+              >
+                {t("logIn")}
+              </span>
+              <span
+                className={`cursor text-center ${useLightChrome ? "header-started" : "header-started-active"}`}
+                id="join_btn"
+                role="button"
+                tabIndex={0}
+                onClick={() => openEduModal("signup")}
+                onKeyDown={(e) => e.key === "Enter" && openEduModal("signup")}
+              >
+                {t("join")}
+              </span>
+            </>
+          )}
         </div>
 
         {/* Mobile: language + hamburger */}
@@ -246,6 +288,11 @@ export function SiteHeader({
           >
             <GlobeIcon stroke={useLightChrome ? "white" : "#1A124E"} />
           </button>
+          {member ? (
+            <Link href="/characters" className="d-inline-flex" id="profile_btn" aria-label={t("myAccount")}>
+              <ProfileIcon stroke={useLightChrome ? "white" : "#1F1F1F"} />
+            </Link>
+          ) : null}
           <svg
             id="kt_drawer_example_dismiss_button"
             width="32"

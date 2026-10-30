@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
       username: email,
       password: hashedPassword,
       referral: 1,
-      isactive: 0,
+      isactive: 1,
       isadmin: 0,
       created_at: now,
       updated_at: now,

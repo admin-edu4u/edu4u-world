@@ -40,7 +40,7 @@ export async function authenticateMember(
     return { ok: false, msg: "invalidCredentials" };
   }
   if (Number(data.isactive) !== 1) {
-    return { ok: false, msg: "invalidCredentials" };
+    return { ok: false, msg: "accountInactive" };
   }
 
   if (!isModernPasswordHash(data.password)) {

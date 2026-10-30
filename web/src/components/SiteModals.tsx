@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLocale, useSiteFlags, useT } from "@/components/LocaleProvider";
+import { useMemberAuth } from "@/components/MemberAuthProvider";
 import type { Locale } from "@/lib/i18n/config";
 import { isValidEmail } from "@/lib/email";
 import { signupPasswordErrorKey } from "@/lib/password";
@@ -48,6 +49,7 @@ export function SiteModals() {
   const { locale } = useLocale();
   const { careersHidden } = useSiteFlags();
   const router = useRouter();
+  const { member, logout } = useMemberAuth();
   const [mounted, setMounted] = useState(false);
   const [modal, setModal] = useState<ModalKind>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -169,9 +171,15 @@ export function SiteModals() {
       const res = await fetch("/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ email, password }),
       });
-      const data = (await res.json()) as { status?: boolean; msg?: string };
+      const data = (await res.json()) as {
+        status?: boolean;
+        msg?: string;
+        userId?: number;
+        email?: string;
+      };
       if (!data.status) {
         const msg = data.msg ?? "";
         if (msg === "Email address is not registered.") {
@@ -192,7 +200,11 @@ export function SiteModals() {
       form.reset();
       closeModal();
       router.refresh();
-      window.dispatchEvent(new CustomEvent("edu4u:member-login"));
+      window.dispatchEvent(
+        new CustomEvent("edu4u:member-login", {
+          detail: { userId: data.userId, email: data.email ?? email },
+        }),
+      );
     } catch {
       setLoginError(t("networkError"));
     } finally {
@@ -260,6 +272,12 @@ export function SiteModals() {
     }
     closeModal();
     router.push("/personality");
+  };
+
+  const onLogout = async () => {
+    setDrawerOpen(false);
+    await logout();
+    router.refresh();
   };
 
   if (!mounted) return null;
@@ -623,12 +641,25 @@ export function SiteModals() {
               <Link className="mobile-sidebar-option mt-5 text-start cursor" style={{ fontWeight: 500 }} href="/contact-us" onClick={() => setDrawerOpen(false)}>{t("enquireNow")}</Link>
 
               <div className="col-12 row mx-auto p-0 mt-10" id="mobile-sidebar-login">
-                <div className="col-6">
-                  <a className="sidebar-login d-block text-center w-100" id="login_btn">{t("logIn")}</a>
-                </div>
-                <div className="col-6">
-                  <a className="sidebar-get-started d-block w-100" id="pathway">{t("homeGetStarted")}</a>
-                </div>
+                {member ? (
+                  <div className="col-12 text-start px-2">
+                    <p className="mb-3" style={{ fontSize: 14, color: "#666" }}>
+                      {member.email}
+                    </p>
+                    <button type="button" className="sidebar-login d-block text-center w-100" onClick={onLogout}>
+                      {t("logOut")}
+                    </button>
+                  </div>
+                ) : (
+                  <>
+                    <div className="col-6">
+                      <a className="sidebar-login d-block text-center w-100" id="login_btn">{t("logIn")}</a>
+                    </div>
+                    <div className="col-6">
+                      <a className="sidebar-get-started d-block w-100" id="pathway">{t("homeGetStarted")}</a>
+                    </div>
+                  </>
+                )}
               </div>
               <div className="col-12">
                 <Link className="d-block w-100 sidebar-apply-now mt-5" href="/explore/?tab=course" onClick={() => setDrawerOpen(false)}>{t("applyNowUncap")}</Link>
