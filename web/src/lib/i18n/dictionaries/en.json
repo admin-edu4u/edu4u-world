@@ -172,6 +172,7 @@
   "emailNotRegistered": "Email address is not registered.",
   "pleaseEnterPassword": "Please enter password.",
   "invalidCredentials": "Invalid email or password.",
+  "accountInactive": "Your account is not active yet. Please contact support.",
   "legacyPasswordResetRequired": "Your password must be reset before you can log in. Please contact support.",
   "emailAlreadyRegistered": "Email is already registered.",
   "enterEmergencyContactEmailAddr": "Enter emergency Contact Email Address",

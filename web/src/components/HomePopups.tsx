@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { useMemberAuth } from "@/components/MemberAuthProvider";
 
 export type HomePopupItem = {
   id: number;
@@ -13,17 +14,22 @@ type Props = {
 };
 
 export function HomePopups({ items }: Props) {
+  const { member } = useMemberAuth();
   const [index, setIndex] = useState(0);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
+    if (member) {
+      setOpen(false);
+      return;
+    }
     if (!items.length) {
       setOpen(false);
       return;
     }
     setIndex(0);
     setOpen(true);
-  }, [items]);
+  }, [items, member]);
 
   const dismiss = useCallback(() => {
     if (index + 1 >= items.length) {
