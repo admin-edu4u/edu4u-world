@@ -1,0 +1,12 @@
+Array
+(
+    [m] => monkey
+    [foo] => bar
+    [x] => Array
+        (
+            [0] => x
+            [1] => y
+            [2] => z
+        )
+
+)
