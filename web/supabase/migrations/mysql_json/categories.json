@@ -1,0 +1,210 @@
+[
+  {
+    "c_id": 1,
+    "c_name": "Health Science",
+    "c_img": "maincat-65fbe68b6572e.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 15:49:31"
+  },
+  {
+    "c_id": 2,
+    "c_name": "Built Environment",
+    "c_img": "maincat-65d85b26b06eb.jpg",
+    "c_status": 99,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 15:51:58"
+  },
+  {
+    "c_id": 3,
+    "c_name": "Business",
+    "c_img": "maincat-65fbe7839f2ca.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 15:53:39"
+  },
+  {
+    "c_id": 4,
+    "c_name": "Information Technology",
+    "c_img": "maincat-65fbed66e8bbb.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:18:46"
+  },
+  {
+    "c_id": 5,
+    "c_name": "Design",
+    "c_img": "maincat-65fbed8497fa2.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:19:16"
+  },
+  {
+    "c_id": 6,
+    "c_name": "Social Science",
+    "c_img": "maincat-65fbedb601f7a.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:33:12"
+  },
+  {
+    "c_id": 7,
+    "c_name": "Engineering",
+    "c_img": "maincat-65fbedebe303c.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:20:59"
+  },
+  {
+    "c_id": 8,
+    "c_name": "Hospitality",
+    "c_img": "maincat-65fbee212a066.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:21:53"
+  },
+  {
+    "c_id": 9,
+    "c_name": "Health Science",
+    "c_img": "maincat-65fbee699e46b.jpg",
+    "c_status": 99,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:23:05"
+  },
+  {
+    "c_id": 10,
+    "c_name": "Law",
+    "c_img": "maincat-65fbee9c28c35.jpg",
+    "c_status": 1,
+    "created_at": "2024-01-23 19:53:11",
+    "updated_at": "2024-03-21 16:23:56"
+  },
+  {
+    "c_id": 11,
+    "c_name": "test01",
+    "c_img": null,
+    "c_status": 99,
+    "created_at": "2024-02-23 16:23:17",
+    "updated_at": "2024-02-23 16:23:17"
+  },
+  {
+    "c_id": 12,
+    "c_name": "test01",
+    "c_img": null,
+    "c_status": 99,
+    "created_at": "2024-02-23 16:24:32",
+    "updated_at": "2024-02-23 16:24:32"
+  },
+  {
+    "c_id": 13,
+    "c_name": "test01",
+    "c_img": "maincat-65d85658e7334.jpg",
+    "c_status": 99,
+    "created_at": "2024-02-23 16:24:56",
+    "updated_at": "2024-02-23 16:24:56"
+  },
+  {
+    "c_id": 14,
+    "c_name": "test022221111",
+    "c_img": "maincat-65d85aed770f7.jpg",
+    "c_status": 99,
+    "created_at": "2024-02-23 16:25:15",
+    "updated_at": "2024-02-23 16:44:29"
+  },
+  {
+    "c_id": 15,
+    "c_name": "test02",
+    "c_img": "maincat-65d858ca23b60.jpg",
+    "c_status": 99,
+    "created_at": "2024-02-23 16:35:22",
+    "updated_at": "2024-02-23 16:35:22"
+  },
+  {
+    "c_id": 16,
+    "c_name": "testmaincat",
+    "c_img": "maincat-65dc025cb296c.jpg",
+    "c_status": 99,
+    "created_at": "2024-02-26 11:15:40",
+    "updated_at": "2024-02-26 11:15:40"
+  },
+  {
+    "c_id": 17,
+    "c_name": "Health Science",
+    "c_img": "maincat-65e6b4ade50fc.jpg",
+    "c_status": 99,
+    "created_at": "2024-03-05 13:30:37",
+    "updated_at": "2024-03-05 13:59:09"
+  },
+  {
+    "c_id": 18,
+    "c_name": "Built Environment",
+    "c_img": "maincat-65fbe751150ad.jpg",
+    "c_status": 1,
+    "created_at": "2024-03-21 15:52:49",
+    "updated_at": "2024-03-21 15:52:49"
+  },
+  {
+    "c_id": 19,
+    "c_name": "Applied Science",
+    "c_img": "maincat-65fbeedac30c6.jpg",
+    "c_status": 1,
+    "created_at": "2024-03-21 16:24:58",
+    "updated_at": "2024-03-21 16:24:58"
+  },
+  {
+    "c_id": 20,
+    "c_name": "Mass Communication",
+    "c_img": "maincat-65fbef2069f72.jpg",
+    "c_status": 1,
+    "created_at": "2024-03-21 16:26:08",
+    "updated_at": "2024-03-21 16:26:08"
+  },
+  {
+    "c_id": 21,
+    "c_name": "Culinary Arts",
+    "c_img": "maincat-6630845bc6670.jpg",
+    "c_status": 99,
+    "created_at": "2024-04-30 13:40:43",
+    "updated_at": "2024-04-30 13:40:43"
+  },
+  {
+    "c_id": 22,
+    "c_name": "Safety & Health",
+    "c_img": "maincat-66308557a0444.jpg",
+    "c_status": 1,
+    "created_at": "2024-04-30 13:44:55",
+    "updated_at": "2024-04-30 13:44:55"
+  },
+  {
+    "c_id": 23,
+    "c_name": "A-Levels",
+    "c_img": "maincat-6638857ab091f.jpg",
+    "c_status": 1,
+    "created_at": "2024-05-06 15:23:38",
+    "updated_at": "2024-05-06 15:23:38"
+  },
+  {
+    "c_id": 24,
+    "c_name": "Australian Matriculation",
+    "c_img": "maincat-663885ad70919.jpg",
+    "c_status": 1,
+    "created_at": "2024-05-06 15:24:29",
+    "updated_at": "2024-05-06 15:24:29"
+  },
+  {
+    "c_id": 25,
+    "c_name": "Science",
+    "c_img": "maincat-6638860aa8fa5.jpg",
+    "c_status": 1,
+    "created_at": "2024-05-06 15:26:02",
+    "updated_at": "2024-05-06 15:26:02"
+  },
+  {
+    "c_id": 26,
+    "c_name": "Undergraduate",
+    "c_img": "maincat-6639d8fa7f06e.jpg",
+    "c_status": 99,
+    "created_at": "2024-05-07 15:32:10",
+    "updated_at": "2024-05-07 15:32:10"
+  }
+]

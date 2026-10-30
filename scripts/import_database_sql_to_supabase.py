@@ -358,6 +358,8 @@ def parse_all(sql: str, create_cols: dict[str, list[str]]) -> dict[str, list[dic
                 continue
             rows.append(row)
         if rows:
+            if pg_name == "app_users":
+                rows = [r for r in rows if int(r.get("isadmin") or 0) != 1]
             parsed[pg_name] = rows
     return parsed
 
@@ -406,6 +408,8 @@ def main() -> int:
     results: dict[str, tuple[int, bool]] = {}
     for t in tables:
         rows = data[t]
+        if t == "app_users":
+            rows = [r for r in rows if int(r.get("isadmin") or 0) != 1]
         log(f"Upsert {t} ({len(rows)} rows)…")
         n, ok = upsert_table(base_url, key, t, rows)
         results[t] = (n, ok)

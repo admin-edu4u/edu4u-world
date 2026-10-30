@@ -1,0 +1,132 @@
+[
+  {
+    "int_b_id": 1,
+    "int_id": 2,
+    "int_b_addr": "bad1",
+    "int_b_state": 5,
+    "int_b_country": 192,
+    "int_b_status": 1,
+    "created_at": "2024-03-06 12:47:47",
+    "updated_at": "2024-03-06 12:47:47"
+  },
+  {
+    "int_b_id": 2,
+    "int_id": 2,
+    "int_b_addr": "bad2",
+    "int_b_state": 4,
+    "int_b_country": 13,
+    "int_b_status": 1,
+    "created_at": "2024-03-06 12:47:47",
+    "updated_at": "2024-03-06 12:47:47"
+  },
+  {
+    "int_b_id": 3,
+    "int_id": 3,
+    "int_b_addr": 123,
+    "int_b_state": 3,
+    "int_b_country": 129,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 12:53:50",
+    "updated_at": "2024-03-06 12:53:50"
+  },
+  {
+    "int_b_id": 4,
+    "int_id": 4,
+    "int_b_addr": "132 fgdfg",
+    "int_b_state": 4,
+    "int_b_country": 192,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 12:55:01",
+    "updated_at": "2024-03-06 12:55:01"
+  },
+  {
+    "int_b_id": 5,
+    "int_id": 4,
+    "int_b_addr": "asdfa",
+    "int_b_state": 14,
+    "int_b_country": 13,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 12:55:01",
+    "updated_at": "2024-03-06 12:55:01"
+  },
+  {
+    "int_b_id": 6,
+    "int_id": 5,
+    "int_b_addr": "asdf342435",
+    "int_b_state": 17,
+    "int_b_country": 840,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 12:56:01",
+    "updated_at": "2024-03-06 13:30:54"
+  },
+  {
+    "int_b_id": 7,
+    "int_id": 5,
+    "int_b_addr": "xzcvvf765345",
+    "int_b_state": 8,
+    "int_b_country": 129,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 12:56:01",
+    "updated_at": "2024-03-06 13:30:42"
+  },
+  {
+    "int_b_id": 8,
+    "int_id": 6,
+    "int_b_addr": 123123,
+    "int_b_state": 49,
+    "int_b_country": 826,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 13:29:36",
+    "updated_at": "2024-03-06 13:29:53"
+  },
+  {
+    "int_b_id": 9,
+    "int_id": 6,
+    "int_b_addr": "asd4fsdf",
+    "int_b_state": 16,
+    "int_b_country": 129,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 13:29:36",
+    "updated_at": "2024-03-06 13:29:36"
+  },
+  {
+    "int_b_id": 10,
+    "int_id": 5,
+    "int_b_addr": "sdfafwefsdf435",
+    "int_b_state": 17,
+    "int_b_country": 826,
+    "int_b_status": 99,
+    "created_at": "2024-03-06 13:30:42",
+    "updated_at": "2024-03-06 13:30:42"
+  },
+  {
+    "int_b_id": 11,
+    "int_id": 9,
+    "int_b_addr": 123,
+    "int_b_state": 18,
+    "int_b_country": 826,
+    "int_b_status": 1,
+    "created_at": "2024-03-07 16:02:36",
+    "updated_at": "2024-03-07 16:02:36"
+  },
+  {
+    "int_b_id": 12,
+    "int_id": 12,
+    "int_b_addr": "Popoland 5",
+    "int_b_state": 2,
+    "int_b_country": 129,
+    "int_b_status": 1,
+    "created_at": "2024-03-20 17:09:15",
+    "updated_at": "2024-03-20 17:09:15"
+  },
+  {
+    "int_b_id": 13,
+    "int_id": 12,
+    "int_b_addr": "Ballster 7",
+    "int_b_state": 22,
+    "int_b_country": 826,
+    "int_b_status": 1,
+    "created_at": "2024-03-20 17:09:15",
+    "updated_at": "2024-03-20 17:09:15"
+  }
+]

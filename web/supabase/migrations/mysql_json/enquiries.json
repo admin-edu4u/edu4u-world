@@ -1,0 +1,42 @@
+[
+  {
+    "e_id": 1,
+    "e_name": "test",
+    "e_email": "email",
+    "e_phone_num": 11223344,
+    "e_message": "helo",
+    "e_status": 99,
+    "created_at": "2024-02-28 12:44:14",
+    "updated_at": "2024-02-28 12:44:14"
+  },
+  {
+    "e_id": 2,
+    "e_name": "justin",
+    "e_email": "asd@gmail.com",
+    "e_phone_num": 122425887,
+    "e_message": "asdwqdasd",
+    "e_status": 99,
+    "created_at": "2024-03-25 16:05:19",
+    "updated_at": "2024-03-25 16:05:19"
+  },
+  {
+    "e_id": 3,
+    "e_name": "Terry D",
+    "e_email": "rachel@oval9.com",
+    "e_phone_num": 3128780396,
+    "e_message": "Do you need help with graphic design - brochures, banners, flyers, advertisements, social media posts, logos etc?nnWe charge a low fixed monthly fee. Let me know if you're interested and would like to see our portfolio.",
+    "e_status": 1,
+    "created_at": "2025-05-28 14:18:09",
+    "updated_at": "2025-05-28 14:18:09"
+  },
+  {
+    "e_id": 4,
+    "e_name": "LIAW ZI HUI",
+    "e_email": "liawzihui@gmail.com",
+    "e_phone_num": 162636622,
+    "e_message": "Taylor event management",
+    "e_status": 1,
+    "created_at": "2026-04-24 23:21:31",
+    "updated_at": "2026-04-24 23:21:31"
+  }
+]

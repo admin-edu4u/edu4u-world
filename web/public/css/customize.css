@@ -1,0 +1,97 @@
+.w-full {
+    width: 100%;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.margin-5{
+    margin: 5px;
+}
+
+.display-block {
+    display: inline-block;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-grey{
+    color: #aaa;
+} 
+
+.btn-min-80{
+    min-width: 80px;
+}
+
+.btn-min-150{
+    min-width: 150px;
+}
+
+.btn-boostrap-info{
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+
+#tester_list_datatable.table thead,
+#agent_list_datatable.table thead,
+#memberList_datatable.table thead,
+#grabList_datatable.table thead,
+#onlineGrab_datatable.table thead,
+#topupMgm_datatable.table thead,
+#withdrawMgm_datatable.table thead,
+#vipBuyMgm_datatable.table thead,
+#productList_datatable.table thead,
+#memberAction_datatable.table thead,
+#noticeType_datatable.table thead,
+#msgMgm_datatable.table thead,
+#memberLevelConfig_datatable.table thead,
+#taskConfig_datatable.table thead,
+#bannerConfig_datatable.table thead,
+#adminList_datatable.table thead,
+#authMgm_datatable.table thead,
+#settingMgm_datatable.table thead,
+#menuMgm_datatable.table thead {
+    background-color: #ff5000;
+}
+
+#tester_list_datatable.table th,
+#agent_list_datatable.table th,
+#memberList_datatable.table th,
+#grabList_datatable.table th,
+#onlineGrab_datatable.table th,
+#topupMgm_datatable.table th,
+#withdrawMgm_datatable.table th,
+#vipBuyMgm_datatable.table th,
+#productList_datatable.table th,
+#memberAction_datatable.table th,
+#noticeType_datatable.table th,
+#msgMgm_datatable.table th,
+#memberLevelConfig_datatable.table th,
+#taskConfig_datatable.table th,
+#bannerConfig_datatable.table th,
+#adminList_datatable.table th,
+#authMgm_datatable.table th,
+#settingMgm_datatable.table th,
+#menuMgm_datatable.table th {
+    color: white;
+    white-space: nowrap;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child{
+    /* width: 500px; */
+}
+
+.setting.nav-link.active {
+    border-top-color: #ff5000;
+}
+
+#setOrderContinuousModal {
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+}

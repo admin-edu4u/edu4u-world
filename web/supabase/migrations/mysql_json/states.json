@@ -1,0 +1,1722 @@
+[
+  {
+    "state_id": 1,
+    "state_country_id": 129,
+    "state_code": "jhr",
+    "state_name": "Johor",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 2,
+    "state_country_id": 129,
+    "state_code": "kdh",
+    "state_name": "Kedah",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 3,
+    "state_country_id": 129,
+    "state_code": "ktn",
+    "state_name": "Kelantan",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 4,
+    "state_country_id": 129,
+    "state_code": "mlk",
+    "state_name": "Melaka",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 5,
+    "state_country_id": 129,
+    "state_code": "nsn",
+    "state_name": "Negeri Sembilan",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 6,
+    "state_country_id": 129,
+    "state_code": "phg",
+    "state_name": "Pahang",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 7,
+    "state_country_id": 129,
+    "state_code": "prk",
+    "state_name": "Perak",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 8,
+    "state_country_id": 129,
+    "state_code": "pls",
+    "state_name": "Perlis",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 9,
+    "state_country_id": 129,
+    "state_code": "png",
+    "state_name": "Pulau Pinang",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 10,
+    "state_country_id": 129,
+    "state_code": "sgr",
+    "state_name": "Selangor",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 11,
+    "state_country_id": 129,
+    "state_code": "trg",
+    "state_name": "Terengganu",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 12,
+    "state_country_id": 129,
+    "state_code": "kul",
+    "state_name": "Kuala Lumpur",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 13,
+    "state_country_id": 129,
+    "state_code": "pjy",
+    "state_name": "Putrajaya",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 14,
+    "state_country_id": 129,
+    "state_code": "srw",
+    "state_name": "Sarawak",
+    "state_type": 2,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 15,
+    "state_country_id": 129,
+    "state_code": "sbh",
+    "state_name": "Sabah",
+    "state_type": 2,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 16,
+    "state_country_id": 129,
+    "state_code": "lbn",
+    "state_name": "Labuan",
+    "state_type": 2,
+    "state_status": 1,
+    "created_at": "2020-08-18 22:58:36",
+    "updated_at": "2020-08-18 22:58:36"
+  },
+  {
+    "state_id": 17,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Gloucestershire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-19 22:58:36",
+    "updated_at": "2020-08-19 22:58:36"
+  },
+  {
+    "state_id": 18,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Greater London",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-20 22:58:36",
+    "updated_at": "2020-08-20 22:58:36"
+  },
+  {
+    "state_id": 19,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Greater Manchester",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-21 22:58:36",
+    "updated_at": "2020-08-21 22:58:36"
+  },
+  {
+    "state_id": 20,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Hampshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-22 22:58:36",
+    "updated_at": "2020-08-22 22:58:36"
+  },
+  {
+    "state_id": 21,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Herefordshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-23 22:58:36",
+    "updated_at": "2020-08-23 22:58:36"
+  },
+  {
+    "state_id": 22,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Hertfordshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-24 22:58:36",
+    "updated_at": "2020-08-24 22:58:36"
+  },
+  {
+    "state_id": 23,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Isle of Wight",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-25 22:58:36",
+    "updated_at": "2020-08-25 22:58:36"
+  },
+  {
+    "state_id": 24,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Kent",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-26 22:58:36",
+    "updated_at": "2020-08-26 22:58:36"
+  },
+  {
+    "state_id": 25,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Lancashire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-27 22:58:36",
+    "updated_at": "2020-08-27 22:58:36"
+  },
+  {
+    "state_id": 26,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Leicestershire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-28 22:58:36",
+    "updated_at": "2020-08-28 22:58:36"
+  },
+  {
+    "state_id": 27,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Lincolnshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-29 22:58:36",
+    "updated_at": "2020-08-29 22:58:36"
+  },
+  {
+    "state_id": 28,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Merseyside",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-30 22:58:36",
+    "updated_at": "2020-08-30 22:58:36"
+  },
+  {
+    "state_id": 29,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Norfolk",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-08-31 22:58:36",
+    "updated_at": "2020-08-31 22:58:36"
+  },
+  {
+    "state_id": 30,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Northamptonshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-01 22:58:36",
+    "updated_at": "2020-09-01 22:58:36"
+  },
+  {
+    "state_id": 31,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Northumberland",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-02 22:58:36",
+    "updated_at": "2020-09-02 22:58:36"
+  },
+  {
+    "state_id": 32,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "North Yorkshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-03 22:58:36",
+    "updated_at": "2020-09-03 22:58:36"
+  },
+  {
+    "state_id": 33,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Nottinghamshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-04 22:58:36",
+    "updated_at": "2020-09-04 22:58:36"
+  },
+  {
+    "state_id": 34,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Oxfordshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-05 22:58:36",
+    "updated_at": "2020-09-05 22:58:36"
+  },
+  {
+    "state_id": 35,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Rutland",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-06 22:58:36",
+    "updated_at": "2020-09-06 22:58:36"
+  },
+  {
+    "state_id": 36,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Shropshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-07 22:58:36",
+    "updated_at": "2020-09-07 22:58:36"
+  },
+  {
+    "state_id": 37,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Somerset",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-08 22:58:36",
+    "updated_at": "2020-09-08 22:58:36"
+  },
+  {
+    "state_id": 38,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "South Yorkshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-09 22:58:36",
+    "updated_at": "2020-09-09 22:58:36"
+  },
+  {
+    "state_id": 39,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Staffordshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-10 22:58:36",
+    "updated_at": "2020-09-10 22:58:36"
+  },
+  {
+    "state_id": 40,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Suffolk",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-11 22:58:36",
+    "updated_at": "2020-09-11 22:58:36"
+  },
+  {
+    "state_id": 41,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Surrey",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-12 22:58:36",
+    "updated_at": "2020-09-12 22:58:36"
+  },
+  {
+    "state_id": 42,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Tyne and Wear",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-13 22:58:36",
+    "updated_at": "2020-09-13 22:58:36"
+  },
+  {
+    "state_id": 43,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Warwickshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-14 22:58:36",
+    "updated_at": "2020-09-14 22:58:36"
+  },
+  {
+    "state_id": 44,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "West Midlands",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-15 22:58:36",
+    "updated_at": "2020-09-15 22:58:36"
+  },
+  {
+    "state_id": 45,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "West Sussex",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-16 22:58:36",
+    "updated_at": "2020-09-16 22:58:36"
+  },
+  {
+    "state_id": 46,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "West Yorkshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-17 22:58:36",
+    "updated_at": "2020-09-17 22:58:36"
+  },
+  {
+    "state_id": 47,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Wiltshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-18 22:58:36",
+    "updated_at": "2020-09-18 22:58:36"
+  },
+  {
+    "state_id": 48,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Worcestershire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-19 22:58:36",
+    "updated_at": "2020-09-19 22:58:36"
+  },
+  {
+    "state_id": 49,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Aberdeen City",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-20 22:58:36",
+    "updated_at": "2020-09-20 22:58:36"
+  },
+  {
+    "state_id": 50,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Aberdeenshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-21 22:58:36",
+    "updated_at": "2020-09-21 22:58:36"
+  },
+  {
+    "state_id": 51,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Angus",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-22 22:58:36",
+    "updated_at": "2020-09-22 22:58:36"
+  },
+  {
+    "state_id": 52,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Argyll and Bute",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-23 22:58:36",
+    "updated_at": "2020-09-23 22:58:36"
+  },
+  {
+    "state_id": 53,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Clackmannanshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-24 22:58:36",
+    "updated_at": "2020-09-24 22:58:36"
+  },
+  {
+    "state_id": 54,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Dumfries and Galloway",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-25 22:58:36",
+    "updated_at": "2020-09-25 22:58:36"
+  },
+  {
+    "state_id": 55,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Dundee City",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-26 22:58:36",
+    "updated_at": "2020-09-26 22:58:36"
+  },
+  {
+    "state_id": 56,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "East Ayrshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-27 22:58:36",
+    "updated_at": "2020-09-27 22:58:36"
+  },
+  {
+    "state_id": 57,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "East Dunbartonshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-28 22:58:36",
+    "updated_at": "2020-09-28 22:58:36"
+  },
+  {
+    "state_id": 58,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "East Lothian",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-29 22:58:36",
+    "updated_at": "2020-09-29 22:58:36"
+  },
+  {
+    "state_id": 59,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "East Renfrewshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-09-30 22:58:36",
+    "updated_at": "2020-09-30 22:58:36"
+  },
+  {
+    "state_id": 60,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Edinburgh, City of",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-01 22:58:36",
+    "updated_at": "2020-10-01 22:58:36"
+  },
+  {
+    "state_id": 61,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Falkirk",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-02 22:58:36",
+    "updated_at": "2020-10-02 22:58:36"
+  },
+  {
+    "state_id": 62,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Fife",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-03 22:58:36",
+    "updated_at": "2020-10-03 22:58:36"
+  },
+  {
+    "state_id": 63,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Glasgow City",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-04 22:58:36",
+    "updated_at": "2020-10-04 22:58:36"
+  },
+  {
+    "state_id": 64,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Highland",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-05 22:58:36",
+    "updated_at": "2020-10-05 22:58:36"
+  },
+  {
+    "state_id": 65,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Inverclyde",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-06 22:58:36",
+    "updated_at": "2020-10-06 22:58:36"
+  },
+  {
+    "state_id": 66,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Midlothian",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-07 22:58:36",
+    "updated_at": "2020-10-07 22:58:36"
+  },
+  {
+    "state_id": 67,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Moray",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-08 22:58:36",
+    "updated_at": "2020-10-08 22:58:36"
+  },
+  {
+    "state_id": 68,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Na h-Eileanan Siar (Western Isles)",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-09 22:58:36",
+    "updated_at": "2020-10-09 22:58:36"
+  },
+  {
+    "state_id": 69,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "North Ayrshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-10 22:58:36",
+    "updated_at": "2020-10-10 22:58:36"
+  },
+  {
+    "state_id": 70,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "North Lanarkshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-11 22:58:36",
+    "updated_at": "2020-10-11 22:58:36"
+  },
+  {
+    "state_id": 71,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Orkney Islands",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-12 22:58:36",
+    "updated_at": "2020-10-12 22:58:36"
+  },
+  {
+    "state_id": 72,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Perth and Kinross",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-13 22:58:36",
+    "updated_at": "2020-10-13 22:58:36"
+  },
+  {
+    "state_id": 73,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Renfrewshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-14 22:58:36",
+    "updated_at": "2020-10-14 22:58:36"
+  },
+  {
+    "state_id": 74,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Scottish Borders",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-15 22:58:36",
+    "updated_at": "2020-10-15 22:58:36"
+  },
+  {
+    "state_id": 75,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Shetland Islands",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-16 22:58:36",
+    "updated_at": "2020-10-16 22:58:36"
+  },
+  {
+    "state_id": 76,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "South Ayrshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-17 22:58:36",
+    "updated_at": "2020-10-17 22:58:36"
+  },
+  {
+    "state_id": 77,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "South Lanarkshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-18 22:58:36",
+    "updated_at": "2020-10-18 22:58:36"
+  },
+  {
+    "state_id": 78,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Stirling",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-19 22:58:36",
+    "updated_at": "2020-10-19 22:58:36"
+  },
+  {
+    "state_id": 79,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "West Dunbartonshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-20 22:58:36",
+    "updated_at": "2020-10-20 22:58:36"
+  },
+  {
+    "state_id": 80,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "West Lothian",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-21 22:58:36",
+    "updated_at": "2020-10-21 22:58:36"
+  },
+  {
+    "state_id": 81,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Anglesey",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-22 22:58:36",
+    "updated_at": "2020-10-22 22:58:36"
+  },
+  {
+    "state_id": 82,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Blaenau Gwent",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-23 22:58:36",
+    "updated_at": "2020-10-23 22:58:36"
+  },
+  {
+    "state_id": 83,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Bridgend",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-24 22:58:36",
+    "updated_at": "2020-10-24 22:58:36"
+  },
+  {
+    "state_id": 84,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Caerphilly",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-25 22:58:36",
+    "updated_at": "2020-10-25 22:58:36"
+  },
+  {
+    "state_id": 85,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Cardiff",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-26 22:58:36",
+    "updated_at": "2020-10-26 22:58:36"
+  },
+  {
+    "state_id": 86,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Carmarthenshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-27 22:58:36",
+    "updated_at": "2020-10-27 22:58:36"
+  },
+  {
+    "state_id": 87,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Ceredigion",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-28 22:58:36",
+    "updated_at": "2020-10-28 22:58:36"
+  },
+  {
+    "state_id": 88,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Conwy",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-29 22:58:36",
+    "updated_at": "2020-10-29 22:58:36"
+  },
+  {
+    "state_id": 89,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Denbighshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-30 22:58:36",
+    "updated_at": "2020-10-30 22:58:36"
+  },
+  {
+    "state_id": 90,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Flintshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-10-31 22:58:36",
+    "updated_at": "2020-10-31 22:58:36"
+  },
+  {
+    "state_id": 91,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Gwynedd",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-01 22:58:36",
+    "updated_at": "2020-11-01 22:58:36"
+  },
+  {
+    "state_id": 92,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Merthyr Tydfil",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-02 22:58:36",
+    "updated_at": "2020-11-02 22:58:36"
+  },
+  {
+    "state_id": 93,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Monmouthshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-03 22:58:36",
+    "updated_at": "2020-11-03 22:58:36"
+  },
+  {
+    "state_id": 94,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Neath Port Talbot",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-04 22:58:36",
+    "updated_at": "2020-11-04 22:58:36"
+  },
+  {
+    "state_id": 95,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Newport",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-05 22:58:36",
+    "updated_at": "2020-11-05 22:58:36"
+  },
+  {
+    "state_id": 96,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Pembrokeshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-06 22:58:36",
+    "updated_at": "2020-11-06 22:58:36"
+  },
+  {
+    "state_id": 97,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Powys",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-07 22:58:36",
+    "updated_at": "2020-11-07 22:58:36"
+  },
+  {
+    "state_id": 98,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Rhondda Cynon Taf",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-08 22:58:36",
+    "updated_at": "2020-11-08 22:58:36"
+  },
+  {
+    "state_id": 99,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Swansea",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-09 22:58:36",
+    "updated_at": "2020-11-09 22:58:36"
+  },
+  {
+    "state_id": 100,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Torfaen",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-10 22:58:36",
+    "updated_at": "2020-11-10 22:58:36"
+  },
+  {
+    "state_id": 101,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Vale of Glamorgan",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-11 22:58:36",
+    "updated_at": "2020-11-11 22:58:36"
+  },
+  {
+    "state_id": 102,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Wrexham",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-12 22:58:36",
+    "updated_at": "2020-11-12 22:58:36"
+  },
+  {
+    "state_id": 103,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Antrim",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-13 22:58:36",
+    "updated_at": "2020-11-13 22:58:36"
+  },
+  {
+    "state_id": 104,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Armagh",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-14 22:58:36",
+    "updated_at": "2020-11-14 22:58:36"
+  },
+  {
+    "state_id": 105,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Down",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-15 22:58:36",
+    "updated_at": "2020-11-15 22:58:36"
+  },
+  {
+    "state_id": 106,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Fermanagh",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-16 22:58:36",
+    "updated_at": "2020-11-16 22:58:36"
+  },
+  {
+    "state_id": 107,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Londonderry (also known as Derry)",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-17 22:58:36",
+    "updated_at": "2020-11-17 22:58:36"
+  },
+  {
+    "state_id": 108,
+    "state_country_id": 826,
+    "state_code": null,
+    "state_name": "Tyrone",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-18 22:58:36",
+    "updated_at": "2020-11-18 22:58:36"
+  },
+  {
+    "state_id": 109,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Bedok",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-19 22:58:36",
+    "updated_at": "2020-11-19 22:58:36"
+  },
+  {
+    "state_id": 110,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Jurong East",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-20 22:58:36",
+    "updated_at": "2020-11-20 22:58:36"
+  },
+  {
+    "state_id": 111,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Kallang",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-21 22:58:36",
+    "updated_at": "2020-11-21 22:58:36"
+  },
+  {
+    "state_id": 112,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Tampines",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-22 22:58:36",
+    "updated_at": "2020-11-22 22:58:36"
+  },
+  {
+    "state_id": 113,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Woodlands",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-23 22:58:36",
+    "updated_at": "2020-11-23 22:58:36"
+  },
+  {
+    "state_id": 114,
+    "state_country_id": 192,
+    "state_code": null,
+    "state_name": "Yishun",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-24 22:58:36",
+    "updated_at": "2020-11-24 22:58:36"
+  },
+  {
+    "state_id": 115,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Alabama",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-25 22:58:36",
+    "updated_at": "2020-11-25 22:58:36"
+  },
+  {
+    "state_id": 116,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Alaska",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-26 22:58:36",
+    "updated_at": "2020-11-26 22:58:36"
+  },
+  {
+    "state_id": 117,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Arizona",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-27 22:58:36",
+    "updated_at": "2020-11-27 22:58:36"
+  },
+  {
+    "state_id": 118,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Arkansas",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-28 22:58:36",
+    "updated_at": "2020-11-28 22:58:36"
+  },
+  {
+    "state_id": 119,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "California",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-29 22:58:36",
+    "updated_at": "2020-11-29 22:58:36"
+  },
+  {
+    "state_id": 120,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Colorado",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-11-30 22:58:36",
+    "updated_at": "2020-11-30 22:58:36"
+  },
+  {
+    "state_id": 121,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Connecticut",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-01 22:58:36",
+    "updated_at": "2020-12-01 22:58:36"
+  },
+  {
+    "state_id": 122,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Delaware",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-02 22:58:36",
+    "updated_at": "2020-12-02 22:58:36"
+  },
+  {
+    "state_id": 123,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Florida",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-03 22:58:36",
+    "updated_at": "2020-12-03 22:58:36"
+  },
+  {
+    "state_id": 124,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Georgia",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-04 22:58:36",
+    "updated_at": "2020-12-04 22:58:36"
+  },
+  {
+    "state_id": 125,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Hawaii",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-05 22:58:36",
+    "updated_at": "2020-12-05 22:58:36"
+  },
+  {
+    "state_id": 126,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Idaho",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-06 22:58:36",
+    "updated_at": "2020-12-06 22:58:36"
+  },
+  {
+    "state_id": 127,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Illinois",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-07 22:58:36",
+    "updated_at": "2020-12-07 22:58:36"
+  },
+  {
+    "state_id": 128,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Indiana",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-08 22:58:36",
+    "updated_at": "2020-12-08 22:58:36"
+  },
+  {
+    "state_id": 129,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Iowa",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-09 22:58:36",
+    "updated_at": "2020-12-09 22:58:36"
+  },
+  {
+    "state_id": 130,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Kansas",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-10 22:58:36",
+    "updated_at": "2020-12-10 22:58:36"
+  },
+  {
+    "state_id": 131,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Kentucky",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-11 22:58:36",
+    "updated_at": "2020-12-11 22:58:36"
+  },
+  {
+    "state_id": 132,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Louisiana",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-12 22:58:36",
+    "updated_at": "2020-12-12 22:58:36"
+  },
+  {
+    "state_id": 133,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Maine",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-13 22:58:36",
+    "updated_at": "2020-12-13 22:58:36"
+  },
+  {
+    "state_id": 134,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Maryland",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-14 22:58:36",
+    "updated_at": "2020-12-14 22:58:36"
+  },
+  {
+    "state_id": 135,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Massachusetts",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-15 22:58:36",
+    "updated_at": "2020-12-15 22:58:36"
+  },
+  {
+    "state_id": 136,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Michigan",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-16 22:58:36",
+    "updated_at": "2020-12-16 22:58:36"
+  },
+  {
+    "state_id": 137,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Minnesota",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-17 22:58:36",
+    "updated_at": "2020-12-17 22:58:36"
+  },
+  {
+    "state_id": 138,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Mississippi",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-18 22:58:36",
+    "updated_at": "2020-12-18 22:58:36"
+  },
+  {
+    "state_id": 139,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Missouri",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-19 22:58:36",
+    "updated_at": "2020-12-19 22:58:36"
+  },
+  {
+    "state_id": 140,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Montana",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-20 22:58:36",
+    "updated_at": "2020-12-20 22:58:36"
+  },
+  {
+    "state_id": 141,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Nebraska",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-21 22:58:36",
+    "updated_at": "2020-12-21 22:58:36"
+  },
+  {
+    "state_id": 142,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Nevada",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-22 22:58:36",
+    "updated_at": "2020-12-22 22:58:36"
+  },
+  {
+    "state_id": 143,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "New Hampshire",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-23 22:58:36",
+    "updated_at": "2020-12-23 22:58:36"
+  },
+  {
+    "state_id": 144,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "New Jersey",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-24 22:58:36",
+    "updated_at": "2020-12-24 22:58:36"
+  },
+  {
+    "state_id": 145,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "New Mexico",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-25 22:58:36",
+    "updated_at": "2020-12-25 22:58:36"
+  },
+  {
+    "state_id": 146,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "New York",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-26 22:58:36",
+    "updated_at": "2020-12-26 22:58:36"
+  },
+  {
+    "state_id": 147,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "North Carolina",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-27 22:58:36",
+    "updated_at": "2020-12-27 22:58:36"
+  },
+  {
+    "state_id": 148,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "North Dakota",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-28 22:58:36",
+    "updated_at": "2020-12-28 22:58:36"
+  },
+  {
+    "state_id": 149,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Ohio",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-29 22:58:36",
+    "updated_at": "2020-12-29 22:58:36"
+  },
+  {
+    "state_id": 150,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Oklahoma",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-30 22:58:36",
+    "updated_at": "2020-12-30 22:58:36"
+  },
+  {
+    "state_id": 151,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Oregon",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2020-12-31 22:58:36",
+    "updated_at": "2020-12-31 22:58:36"
+  },
+  {
+    "state_id": 152,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Pennsylvania",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-01 22:58:36",
+    "updated_at": "2021-01-01 22:58:36"
+  },
+  {
+    "state_id": 153,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Rhode Island",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-02 22:58:36",
+    "updated_at": "2021-01-02 22:58:36"
+  },
+  {
+    "state_id": 154,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "South Carolina",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-03 22:58:36",
+    "updated_at": "2021-01-03 22:58:36"
+  },
+  {
+    "state_id": 155,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "South Dakota",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-04 22:58:36",
+    "updated_at": "2021-01-04 22:58:36"
+  },
+  {
+    "state_id": 156,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Tennessee",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-05 22:58:36",
+    "updated_at": "2021-01-05 22:58:36"
+  },
+  {
+    "state_id": 157,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Texas",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-06 22:58:36",
+    "updated_at": "2021-01-06 22:58:36"
+  },
+  {
+    "state_id": 158,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Utah",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-07 22:58:36",
+    "updated_at": "2021-01-07 22:58:36"
+  },
+  {
+    "state_id": 159,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Vermont",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-08 22:58:36",
+    "updated_at": "2021-01-08 22:58:36"
+  },
+  {
+    "state_id": 160,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Virginia",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-09 22:58:36",
+    "updated_at": "2021-01-09 22:58:36"
+  },
+  {
+    "state_id": 161,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Washington",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-10 22:58:36",
+    "updated_at": "2021-01-10 22:58:36"
+  },
+  {
+    "state_id": 162,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "West Virginia",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-11 22:58:36",
+    "updated_at": "2021-01-11 22:58:36"
+  },
+  {
+    "state_id": 163,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Wisconsin",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-12 22:58:36",
+    "updated_at": "2021-01-12 22:58:36"
+  },
+  {
+    "state_id": 164,
+    "state_country_id": 840,
+    "state_code": null,
+    "state_name": "Wyoming",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-13 22:58:36",
+    "updated_at": "2021-01-13 22:58:36"
+  },
+  {
+    "state_id": 165,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Australian Capital Territory",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-14 22:58:36",
+    "updated_at": "2021-01-14 22:58:36"
+  },
+  {
+    "state_id": 166,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Northern Territory",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-15 22:58:36",
+    "updated_at": "2021-01-15 22:58:36"
+  },
+  {
+    "state_id": 167,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "New South Wales",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-16 22:58:36",
+    "updated_at": "2021-01-16 22:58:36"
+  },
+  {
+    "state_id": 168,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Victoria",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-17 22:58:36",
+    "updated_at": "2021-01-17 22:58:36"
+  },
+  {
+    "state_id": 169,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Queensland",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-18 22:58:36",
+    "updated_at": "2021-01-18 22:58:36"
+  },
+  {
+    "state_id": 170,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Western Australia",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-19 22:58:36",
+    "updated_at": "2021-01-19 22:58:36"
+  },
+  {
+    "state_id": 171,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "South Australia",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-20 22:58:36",
+    "updated_at": "2021-01-20 22:58:36"
+  },
+  {
+    "state_id": 172,
+    "state_country_id": 13,
+    "state_code": null,
+    "state_name": "Tasmania",
+    "state_type": 1,
+    "state_status": 1,
+    "created_at": "2021-01-21 22:58:36",
+    "updated_at": "2021-01-21 22:58:36"
+  }
+]

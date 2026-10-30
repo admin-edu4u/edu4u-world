@@ -1,0 +1,965 @@
+[
+  {
+    "sc_id": 1,
+    "sc_main": 1,
+    "sc_name": "Accounting",
+    "sc_status": 99,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-03-05 15:05:36"
+  },
+  {
+    "sc_id": 2,
+    "sc_main": 1,
+    "sc_name": "Finance",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 3,
+    "sc_main": 2,
+    "sc_name": "Architecture",
+    "sc_status": 1,
+    "sc_character": 3,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 4,
+    "sc_main": 2,
+    "sc_name": "Enviromental",
+    "sc_status": 1,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 5,
+    "sc_main": 3,
+    "sc_name": "Business",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 6,
+    "sc_main": 3,
+    "sc_name": "Business 1",
+    "sc_status": 99,
+    "sc_character": 3,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 7,
+    "sc_main": 4,
+    "sc_name": "Software Engineering",
+    "sc_status": 99,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 8,
+    "sc_main": 4,
+    "sc_name": "Software Tester",
+    "sc_status": 99,
+    "sc_character": 10,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-03-20 13:39:37"
+  },
+  {
+    "sc_id": 9,
+    "sc_main": 5,
+    "sc_name": "Arts",
+    "sc_status": 99,
+    "sc_character": 3,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 10,
+    "sc_main": 5,
+    "sc_name": "Design",
+    "sc_status": 99,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 11,
+    "sc_main": 6,
+    "sc_name": "Teaching",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 12,
+    "sc_main": 6,
+    "sc_name": "Primary Edu",
+    "sc_status": 99,
+    "sc_character": 3,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 13,
+    "sc_main": 7,
+    "sc_name": "Civil Engineering",
+    "sc_status": 1,
+    "sc_character": 21,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-03-21 16:33:52"
+  },
+  {
+    "sc_id": 14,
+    "sc_main": 7,
+    "sc_name": "Software Engineering",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 15,
+    "sc_main": 8,
+    "sc_name": "Hospitality",
+    "sc_status": 99,
+    "sc_character": 3,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 16,
+    "sc_main": 8,
+    "sc_name": "Hospitality 1",
+    "sc_status": 99,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 17,
+    "sc_main": 9,
+    "sc_name": "Medicine",
+    "sc_status": 1,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 18,
+    "sc_main": 9,
+    "sc_name": "Science",
+    "sc_status": 1,
+    "sc_character": 4,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 19,
+    "sc_main": 10,
+    "sc_name": "Criminal Law",
+    "sc_status": 99,
+    "sc_character": 1,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 20,
+    "sc_main": 10,
+    "sc_name": "Civil Law",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 21,
+    "sc_main": 1,
+    "sc_name": "test02",
+    "sc_status": 99,
+    "sc_character": 2,
+    "created_at": "2024-02-23 19:05:00",
+    "updated_at": "2024-02-23 19:05:19"
+  },
+  {
+    "sc_id": 22,
+    "sc_main": 1,
+    "sc_name": "test0001555",
+    "sc_status": 99,
+    "sc_character": 9,
+    "created_at": "2024-02-23 19:07:11",
+    "updated_at": "2024-02-23 19:09:47"
+  },
+  {
+    "sc_id": 23,
+    "sc_main": 16,
+    "sc_name": "testsubcat1",
+    "sc_status": 99,
+    "sc_character": 9,
+    "created_at": "2024-02-26 11:15:53",
+    "updated_at": "2024-02-26 11:16:22"
+  },
+  {
+    "sc_id": 24,
+    "sc_main": 17,
+    "sc_name": "Medicine",
+    "sc_status": 1,
+    "sc_character": 1,
+    "created_at": "2024-03-05 13:34:22",
+    "updated_at": "2024-03-05 13:34:22"
+  },
+  {
+    "sc_id": 25,
+    "sc_main": 1,
+    "sc_name": "Medicine",
+    "sc_status": 1,
+    "sc_character": 2,
+    "created_at": "2024-03-21 16:26:38",
+    "updated_at": "2024-03-21 16:26:38"
+  },
+  {
+    "sc_id": 26,
+    "sc_main": 1,
+    "sc_name": "Dentistry",
+    "sc_status": 1,
+    "sc_character": 3,
+    "created_at": "2024-03-21 16:26:49",
+    "updated_at": "2024-03-21 16:26:49"
+  },
+  {
+    "sc_id": 27,
+    "sc_main": 1,
+    "sc_name": "Veterinary",
+    "sc_status": 1,
+    "sc_character": 4,
+    "created_at": "2024-03-21 16:26:58",
+    "updated_at": "2024-03-21 16:26:58"
+  },
+  {
+    "sc_id": 28,
+    "sc_main": 1,
+    "sc_name": "Chinese Medicine",
+    "sc_status": 1,
+    "sc_character": 5,
+    "created_at": "2024-03-21 16:27:05",
+    "updated_at": "2024-03-21 16:27:05"
+  },
+  {
+    "sc_id": 29,
+    "sc_main": 1,
+    "sc_name": "Optometry",
+    "sc_status": 1,
+    "sc_character": 6,
+    "created_at": "2024-03-21 16:27:14",
+    "updated_at": "2024-03-21 16:27:14"
+  },
+  {
+    "sc_id": 30,
+    "sc_main": 1,
+    "sc_name": "Pharmacy",
+    "sc_status": 1,
+    "sc_character": 7,
+    "created_at": "2024-03-21 16:27:37",
+    "updated_at": "2024-03-21 16:27:37"
+  },
+  {
+    "sc_id": 31,
+    "sc_main": 1,
+    "sc_name": "Nursing",
+    "sc_status": 1,
+    "sc_character": 8,
+    "created_at": "2024-03-21 16:27:45",
+    "updated_at": "2024-03-21 16:27:45"
+  },
+  {
+    "sc_id": 32,
+    "sc_main": 1,
+    "sc_name": "Physiotherapy",
+    "sc_status": 1,
+    "sc_character": 9,
+    "created_at": "2024-03-21 16:27:52",
+    "updated_at": "2024-03-21 16:27:52"
+  },
+  {
+    "sc_id": 33,
+    "sc_main": 1,
+    "sc_name": "Astronomers",
+    "sc_status": 1,
+    "sc_character": 10,
+    "created_at": "2024-03-21 16:27:57",
+    "updated_at": "2024-03-21 16:27:57"
+  },
+  {
+    "sc_id": 34,
+    "sc_main": 3,
+    "sc_name": "Actuarial Science",
+    "sc_status": 1,
+    "sc_character": 59,
+    "created_at": "2024-03-21 16:28:34",
+    "updated_at": "2024-03-21 16:28:34"
+  },
+  {
+    "sc_id": 35,
+    "sc_main": 3,
+    "sc_name": "Accounting",
+    "sc_status": 1,
+    "sc_character": 60,
+    "created_at": "2024-03-21 16:28:39",
+    "updated_at": "2024-03-21 16:28:39"
+  },
+  {
+    "sc_id": 36,
+    "sc_main": 3,
+    "sc_name": "Finance",
+    "sc_status": 1,
+    "sc_character": 61,
+    "created_at": "2024-03-21 16:28:45",
+    "updated_at": "2024-03-21 16:28:45"
+  },
+  {
+    "sc_id": 37,
+    "sc_main": 3,
+    "sc_name": "Economic",
+    "sc_status": 1,
+    "sc_character": 62,
+    "created_at": "2024-03-21 16:28:52",
+    "updated_at": "2024-03-21 16:28:52"
+  },
+  {
+    "sc_id": 38,
+    "sc_main": 3,
+    "sc_name": "Marketing",
+    "sc_status": 1,
+    "sc_character": 63,
+    "created_at": "2024-03-21 16:28:58",
+    "updated_at": "2024-03-21 16:28:58"
+  },
+  {
+    "sc_id": 39,
+    "sc_main": 3,
+    "sc_name": "Logistic",
+    "sc_status": 1,
+    "sc_character": 64,
+    "created_at": "2024-03-21 16:29:02",
+    "updated_at": "2024-03-21 16:29:02"
+  },
+  {
+    "sc_id": 40,
+    "sc_main": 3,
+    "sc_name": "International Business",
+    "sc_status": 1,
+    "sc_character": 65,
+    "created_at": "2024-03-21 16:29:09",
+    "updated_at": "2024-03-21 16:29:09"
+  },
+  {
+    "sc_id": 41,
+    "sc_main": 3,
+    "sc_name": "Business Psychology",
+    "sc_status": 1,
+    "sc_character": 66,
+    "created_at": "2024-03-21 16:29:13",
+    "updated_at": "2024-03-21 16:29:13"
+  },
+  {
+    "sc_id": 42,
+    "sc_main": 3,
+    "sc_name": "E-commerce/E-Business",
+    "sc_status": 1,
+    "sc_character": 67,
+    "created_at": "2024-03-21 16:29:20",
+    "updated_at": "2024-03-21 16:29:20"
+  },
+  {
+    "sc_id": 43,
+    "sc_main": 3,
+    "sc_name": "Human Resource Management",
+    "sc_status": 1,
+    "sc_character": 68,
+    "created_at": "2024-03-21 16:29:25",
+    "updated_at": "2024-03-21 16:29:25"
+  },
+  {
+    "sc_id": 44,
+    "sc_main": 3,
+    "sc_name": "Business Management/ Administration",
+    "sc_status": 1,
+    "sc_character": 69,
+    "created_at": "2024-03-21 16:29:30",
+    "updated_at": "2024-03-21 16:29:30"
+  },
+  {
+    "sc_id": 45,
+    "sc_main": 4,
+    "sc_name": "Computer Science",
+    "sc_status": 1,
+    "sc_character": 39,
+    "created_at": "2024-03-21 16:29:49",
+    "updated_at": "2024-03-21 16:29:49"
+  },
+  {
+    "sc_id": 46,
+    "sc_main": 4,
+    "sc_name": "Information Technology",
+    "sc_status": 1,
+    "sc_character": 40,
+    "created_at": "2024-03-21 16:29:54",
+    "updated_at": "2024-03-21 16:29:54"
+  },
+  {
+    "sc_id": 47,
+    "sc_main": 4,
+    "sc_name": "Software Engineering",
+    "sc_status": 1,
+    "sc_character": 41,
+    "created_at": "2024-03-21 16:29:58",
+    "updated_at": "2024-03-21 16:29:58"
+  },
+  {
+    "sc_id": 48,
+    "sc_main": 4,
+    "sc_name": "Cyber Security",
+    "sc_status": 1,
+    "sc_character": 42,
+    "created_at": "2024-03-21 16:30:07",
+    "updated_at": "2024-03-21 16:30:07"
+  },
+  {
+    "sc_id": 49,
+    "sc_main": 4,
+    "sc_name": "Cloud Computing",
+    "sc_status": 1,
+    "sc_character": 43,
+    "created_at": "2024-03-21 16:30:12",
+    "updated_at": "2024-03-21 16:30:12"
+  },
+  {
+    "sc_id": 50,
+    "sc_main": 4,
+    "sc_name": "Mobile Technology",
+    "sc_status": 1,
+    "sc_character": 44,
+    "created_at": "2024-03-21 16:30:17",
+    "updated_at": "2024-03-21 16:30:17"
+  },
+  {
+    "sc_id": 51,
+    "sc_main": 4,
+    "sc_name": "Artificial Intelligence",
+    "sc_status": 1,
+    "sc_character": 45,
+    "created_at": "2024-03-21 16:30:23",
+    "updated_at": "2024-03-21 16:30:23"
+  },
+  {
+    "sc_id": 52,
+    "sc_main": 4,
+    "sc_name": "Multimedia Technology",
+    "sc_status": 1,
+    "sc_character": 46,
+    "created_at": "2024-03-21 16:30:28",
+    "updated_at": "2024-03-21 16:30:35"
+  },
+  {
+    "sc_id": 53,
+    "sc_main": 4,
+    "sc_name": "Data Science & Analytics",
+    "sc_status": 1,
+    "sc_character": 47,
+    "created_at": "2024-03-21 16:30:41",
+    "updated_at": "2024-03-21 16:30:41"
+  },
+  {
+    "sc_id": 54,
+    "sc_main": 5,
+    "sc_name": "Fine Art",
+    "sc_status": 1,
+    "sc_character": 71,
+    "created_at": "2024-03-21 16:31:07",
+    "updated_at": "2024-03-21 16:31:07"
+  },
+  {
+    "sc_id": 55,
+    "sc_main": 5,
+    "sc_name": "Illustration",
+    "sc_status": 1,
+    "sc_character": 72,
+    "created_at": "2024-03-21 16:31:16",
+    "updated_at": "2024-03-21 16:31:16"
+  },
+  {
+    "sc_id": 56,
+    "sc_main": 5,
+    "sc_name": "Animation",
+    "sc_status": 1,
+    "sc_character": 73,
+    "created_at": "2024-03-21 16:31:21",
+    "updated_at": "2024-03-21 16:31:21"
+  },
+  {
+    "sc_id": 57,
+    "sc_main": 5,
+    "sc_name": "Game Design",
+    "sc_status": 1,
+    "sc_character": 74,
+    "created_at": "2024-03-21 16:31:26",
+    "updated_at": "2024-03-21 16:31:26"
+  },
+  {
+    "sc_id": 58,
+    "sc_main": 5,
+    "sc_name": "Graphic Design",
+    "sc_status": 1,
+    "sc_character": 75,
+    "created_at": "2024-03-21 16:31:32",
+    "updated_at": "2024-03-21 16:31:32"
+  },
+  {
+    "sc_id": 59,
+    "sc_main": 5,
+    "sc_name": "Fashion Design",
+    "sc_status": 1,
+    "sc_character": 76,
+    "created_at": "2024-03-21 16:31:37",
+    "updated_at": "2024-03-21 16:31:37"
+  },
+  {
+    "sc_id": 60,
+    "sc_main": 5,
+    "sc_name": "Multimedia Design",
+    "sc_status": 1,
+    "sc_character": 77,
+    "created_at": "2024-03-21 16:31:43",
+    "updated_at": "2024-03-21 16:31:43"
+  },
+  {
+    "sc_id": 61,
+    "sc_main": 5,
+    "sc_name": "Interior Design",
+    "sc_status": 1,
+    "sc_character": 78,
+    "created_at": "2024-03-21 16:31:48",
+    "updated_at": "2024-03-21 16:31:48"
+  },
+  {
+    "sc_id": 62,
+    "sc_main": 6,
+    "sc_name": "Counselling",
+    "sc_status": 1,
+    "sc_character": 30,
+    "created_at": "2024-03-21 16:32:11",
+    "updated_at": "2024-03-21 16:32:11"
+  },
+  {
+    "sc_id": 63,
+    "sc_main": 6,
+    "sc_name": "Psychology",
+    "sc_status": 1,
+    "sc_character": 31,
+    "created_at": "2024-03-21 16:32:17",
+    "updated_at": "2024-03-21 16:32:17"
+  },
+  {
+    "sc_id": 64,
+    "sc_main": 6,
+    "sc_name": "English",
+    "sc_status": 1,
+    "sc_character": 33,
+    "created_at": "2024-03-21 16:32:28",
+    "updated_at": "2024-03-21 16:32:28"
+  },
+  {
+    "sc_id": 65,
+    "sc_main": 6,
+    "sc_name": "International Relations",
+    "sc_status": 1,
+    "sc_character": 32,
+    "created_at": "2024-03-21 16:32:37",
+    "updated_at": "2024-03-21 16:32:37"
+  },
+  {
+    "sc_id": 66,
+    "sc_main": 6,
+    "sc_name": "Education",
+    "sc_status": 1,
+    "sc_character": 34,
+    "created_at": "2024-03-21 16:32:46",
+    "updated_at": "2024-03-21 16:32:46"
+  },
+  {
+    "sc_id": 67,
+    "sc_main": 6,
+    "sc_name": "Chinese Studies",
+    "sc_status": 1,
+    "sc_character": 35,
+    "created_at": "2024-03-21 16:32:54",
+    "updated_at": "2024-03-21 16:32:54"
+  },
+  {
+    "sc_id": 68,
+    "sc_main": 6,
+    "sc_name": "Special Education",
+    "sc_status": 1,
+    "sc_character": 36,
+    "created_at": "2024-03-21 16:32:59",
+    "updated_at": "2024-03-21 16:32:59"
+  },
+  {
+    "sc_id": 69,
+    "sc_main": 6,
+    "sc_name": "Early Childhood Education",
+    "sc_status": 1,
+    "sc_character": 37,
+    "created_at": "2024-03-21 16:33:03",
+    "updated_at": "2024-03-21 16:33:03"
+  },
+  {
+    "sc_id": 70,
+    "sc_main": 7,
+    "sc_name": "Mechanical Engineering",
+    "sc_status": 1,
+    "sc_character": 22,
+    "created_at": "2024-03-21 16:33:58",
+    "updated_at": "2024-03-21 16:33:58"
+  },
+  {
+    "sc_id": 71,
+    "sc_main": 7,
+    "sc_name": "Electrical and Electronic Engineering",
+    "sc_status": 1,
+    "sc_character": 23,
+    "created_at": "2024-03-21 16:34:05",
+    "updated_at": "2024-03-21 16:34:05"
+  },
+  {
+    "sc_id": 72,
+    "sc_main": 7,
+    "sc_name": "Mechatronic Engineering",
+    "sc_status": 1,
+    "sc_character": 24,
+    "created_at": "2024-03-21 16:34:11",
+    "updated_at": "2024-03-21 16:34:11"
+  },
+  {
+    "sc_id": 73,
+    "sc_main": 7,
+    "sc_name": "Chemical Engineering",
+    "sc_status": 1,
+    "sc_character": 25,
+    "created_at": "2024-03-21 16:34:15",
+    "updated_at": "2024-03-21 16:34:15"
+  },
+  {
+    "sc_id": 74,
+    "sc_main": 7,
+    "sc_name": "Aerospace Engineering",
+    "sc_status": 1,
+    "sc_character": 26,
+    "created_at": "2024-03-21 16:34:20",
+    "updated_at": "2024-03-21 16:34:20"
+  },
+  {
+    "sc_id": 75,
+    "sc_main": 7,
+    "sc_name": "Petroleum Engineering",
+    "sc_status": 1,
+    "sc_character": 27,
+    "created_at": "2024-03-21 16:34:25",
+    "updated_at": "2024-03-21 16:34:25"
+  },
+  {
+    "sc_id": 76,
+    "sc_main": 7,
+    "sc_name": "Environment Engineering",
+    "sc_status": 1,
+    "sc_character": 28,
+    "created_at": "2024-03-21 16:34:30",
+    "updated_at": "2024-03-21 16:34:30"
+  },
+  {
+    "sc_id": 77,
+    "sc_main": 8,
+    "sc_name": "Culinary Arts",
+    "sc_status": 1,
+    "sc_character": 80,
+    "created_at": "2024-03-21 16:34:50",
+    "updated_at": "2024-05-14 13:38:00"
+  },
+  {
+    "sc_id": 78,
+    "sc_main": 8,
+    "sc_name": "Bakery",
+    "sc_status": 1,
+    "sc_character": 81,
+    "created_at": "2024-03-21 16:34:55",
+    "updated_at": "2024-03-21 16:34:55"
+  },
+  {
+    "sc_id": 79,
+    "sc_main": 8,
+    "sc_name": "Hotel Management",
+    "sc_status": 1,
+    "sc_character": 82,
+    "created_at": "2024-03-21 16:34:59",
+    "updated_at": "2024-03-21 16:34:59"
+  },
+  {
+    "sc_id": 80,
+    "sc_main": 8,
+    "sc_name": "Tourism Management",
+    "sc_status": 1,
+    "sc_character": 83,
+    "created_at": "2024-03-21 16:35:03",
+    "updated_at": "2024-03-21 16:35:03"
+  },
+  {
+    "sc_id": 81,
+    "sc_main": 8,
+    "sc_name": "Event Management",
+    "sc_status": 1,
+    "sc_character": 84,
+    "created_at": "2024-03-21 16:35:08",
+    "updated_at": "2024-03-21 16:35:08"
+  },
+  {
+    "sc_id": 82,
+    "sc_main": 10,
+    "sc_name": "Law",
+    "sc_status": 1,
+    "sc_character": 57,
+    "created_at": "2024-03-21 16:35:24",
+    "updated_at": "2024-03-21 16:35:24"
+  },
+  {
+    "sc_id": 83,
+    "sc_main": 18,
+    "sc_name": "Architecture",
+    "sc_status": 1,
+    "sc_character": 49,
+    "created_at": "2024-03-21 16:35:51",
+    "updated_at": "2024-03-21 16:35:51"
+  },
+  {
+    "sc_id": 84,
+    "sc_main": 18,
+    "sc_name": "Quantity Surveying",
+    "sc_status": 1,
+    "sc_character": 50,
+    "created_at": "2024-03-21 16:35:57",
+    "updated_at": "2024-03-21 16:35:57"
+  },
+  {
+    "sc_id": 85,
+    "sc_main": 18,
+    "sc_name": "Real Estate Management",
+    "sc_status": 1,
+    "sc_character": 51,
+    "created_at": "2024-03-21 16:36:01",
+    "updated_at": "2024-03-21 16:36:01"
+  },
+  {
+    "sc_id": 86,
+    "sc_main": 19,
+    "sc_name": "Nutrition",
+    "sc_status": 1,
+    "sc_character": 12,
+    "created_at": "2024-03-21 16:36:16",
+    "updated_at": "2024-03-21 16:36:16"
+  },
+  {
+    "sc_id": 87,
+    "sc_main": 19,
+    "sc_name": "Biomedical",
+    "sc_status": 1,
+    "sc_character": 13,
+    "created_at": "2024-03-21 16:36:20",
+    "updated_at": "2024-03-21 16:36:20"
+  },
+  {
+    "sc_id": 88,
+    "sc_main": 19,
+    "sc_name": "Biotechnology",
+    "sc_status": 1,
+    "sc_character": 14,
+    "created_at": "2024-03-21 16:36:25",
+    "updated_at": "2024-03-21 16:36:25"
+  },
+  {
+    "sc_id": 89,
+    "sc_main": 19,
+    "sc_name": "Food Science",
+    "sc_status": 1,
+    "sc_character": 15,
+    "created_at": "2024-03-21 16:36:29",
+    "updated_at": "2024-03-21 16:36:29"
+  },
+  {
+    "sc_id": 90,
+    "sc_main": 19,
+    "sc_name": "Sport Science",
+    "sc_status": 1,
+    "sc_character": 16,
+    "created_at": "2024-03-21 16:36:33",
+    "updated_at": "2024-03-21 16:36:33"
+  },
+  {
+    "sc_id": 91,
+    "sc_main": 19,
+    "sc_name": "Marine",
+    "sc_status": 1,
+    "sc_character": 17,
+    "created_at": "2024-03-21 16:36:40",
+    "updated_at": "2024-03-21 16:36:40"
+  },
+  {
+    "sc_id": 92,
+    "sc_main": 19,
+    "sc_name": "Geology",
+    "sc_status": 1,
+    "sc_character": 18,
+    "created_at": "2024-03-21 16:36:45",
+    "updated_at": "2024-03-21 16:36:45"
+  },
+  {
+    "sc_id": 93,
+    "sc_main": 19,
+    "sc_name": "Environment Science",
+    "sc_status": 1,
+    "sc_character": 19,
+    "created_at": "2024-03-21 16:36:51",
+    "updated_at": "2024-03-21 16:36:51"
+  },
+  {
+    "sc_id": 94,
+    "sc_main": 20,
+    "sc_name": "Advertising",
+    "sc_status": 1,
+    "sc_character": 53,
+    "created_at": "2024-03-21 16:37:10",
+    "updated_at": "2024-03-21 16:37:10"
+  },
+  {
+    "sc_id": 95,
+    "sc_main": 20,
+    "sc_name": "Broadcasting",
+    "sc_status": 1,
+    "sc_character": 54,
+    "created_at": "2024-03-21 16:37:14",
+    "updated_at": "2024-03-21 16:37:14"
+  },
+  {
+    "sc_id": 96,
+    "sc_main": 20,
+    "sc_name": "Journalism",
+    "sc_status": 1,
+    "sc_character": 55,
+    "created_at": "2024-03-21 16:37:19",
+    "updated_at": "2024-03-21 16:37:19"
+  },
+  {
+    "sc_id": 97,
+    "sc_main": 20,
+    "sc_name": "Public Relations",
+    "sc_status": 1,
+    "sc_character": 56,
+    "created_at": "2024-03-21 16:37:24",
+    "updated_at": "2024-03-21 16:37:32"
+  },
+  {
+    "sc_id": 98,
+    "sc_main": 23,
+    "sc_name": "A-Levels",
+    "sc_status": 1,
+    "sc_character": 37,
+    "created_at": "2024-05-06 15:33:18",
+    "updated_at": "2024-05-06 15:33:18"
+  },
+  {
+    "sc_id": 99,
+    "sc_main": 24,
+    "sc_name": "AUSMAT",
+    "sc_status": 1,
+    "sc_character": 34,
+    "created_at": "2024-05-06 15:37:48",
+    "updated_at": "2024-05-06 15:37:48"
+  },
+  {
+    "sc_id": 100,
+    "sc_main": 21,
+    "sc_name": "Foundation",
+    "sc_status": 1,
+    "sc_character": 80,
+    "created_at": "2024-05-06 15:51:32",
+    "updated_at": "2024-05-06 15:51:32"
+  },
+  {
+    "sc_id": 101,
+    "sc_main": 21,
+    "sc_name": "Liberal Arts",
+    "sc_status": 1,
+    "sc_character": 71,
+    "created_at": "2024-05-06 16:04:53",
+    "updated_at": "2024-05-06 16:04:53"
+  },
+  {
+    "sc_id": 102,
+    "sc_main": 21,
+    "sc_name": "Music",
+    "sc_status": 1,
+    "sc_character": 85,
+    "created_at": "2024-05-06 16:09:56",
+    "updated_at": "2024-05-14 13:35:47"
+  },
+  {
+    "sc_id": 103,
+    "sc_main": 22,
+    "sc_name": "Safety",
+    "sc_status": 1,
+    "sc_character": 2,
+    "created_at": "2024-05-06 16:17:04",
+    "updated_at": "2024-05-06 16:17:04"
+  },
+  {
+    "sc_id": 104,
+    "sc_main": 6,
+    "sc_name": "Science",
+    "sc_status": 1,
+    "sc_character": 47,
+    "created_at": "2024-05-06 16:17:53",
+    "updated_at": "2024-05-06 16:17:53"
+  },
+  {
+    "sc_id": 105,
+    "sc_main": 25,
+    "sc_name": "Science",
+    "sc_status": 1,
+    "sc_character": 47,
+    "created_at": "2024-05-06 16:18:21",
+    "updated_at": "2024-05-06 16:18:21"
+  },
+  {
+    "sc_id": 106,
+    "sc_main": 3,
+    "sc_name": "Supply Chain Management",
+    "sc_status": 1,
+    "sc_character": 69,
+    "created_at": "2024-05-06 16:19:57",
+    "updated_at": "2024-05-06 16:19:57"
+  },
+  {
+    "sc_id": 107,
+    "sc_main": 21,
+    "sc_name": "Culinary Arts",
+    "sc_status": 1,
+    "sc_character": 80,
+    "created_at": "2024-05-14 13:36:01",
+    "updated_at": "2024-05-14 13:36:01"
+  }
+]

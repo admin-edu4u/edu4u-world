@@ -1,0 +1,146 @@
+[
+  {
+    "ut_id": 1,
+    "ut_name": "Private",
+    "ut_type": 1,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:23:04",
+    "updated_at": "2024-03-05 19:23:04"
+  },
+  {
+    "ut_id": 2,
+    "ut_name": "Public",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:23:10",
+    "updated_at": "2024-03-05 19:23:10"
+  },
+  {
+    "ut_id": 3,
+    "ut_name": "test 1",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:23:23",
+    "updated_at": "2024-03-05 19:23:23"
+  },
+  {
+    "ut_id": 4,
+    "ut_name": "type 1",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:23:58",
+    "updated_at": "2024-03-05 19:23:58"
+  },
+  {
+    "ut_id": 5,
+    "ut_name": "type 2",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:24:02",
+    "updated_at": "2024-03-05 19:24:02"
+  },
+  {
+    "ut_id": 6,
+    "ut_name": "type 3",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-05 19:24:06",
+    "updated_at": "2024-03-05 19:24:06"
+  },
+  {
+    "ut_id": 7,
+    "ut_name": "type 3",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-06 15:43:33",
+    "updated_at": "2024-03-06 15:43:33"
+  },
+  {
+    "ut_id": 8,
+    "ut_name": "Community College",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-06 17:53:15",
+    "updated_at": "2024-03-06 17:53:15"
+  },
+  {
+    "ut_id": 9,
+    "ut_name": "Polytechnic",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-06 17:53:30",
+    "updated_at": "2024-03-06 17:53:30"
+  },
+  {
+    "ut_id": 10,
+    "ut_name": "Public Universities",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-06 17:53:54",
+    "updated_at": "2024-03-06 17:53:54"
+  },
+  {
+    "ut_id": 11,
+    "ut_name": "IPTS",
+    "ut_type": 1,
+    "ut_status": 99,
+    "created_at": "2024-03-06 17:53:58",
+    "updated_at": "2024-03-06 17:53:58"
+  },
+  {
+    "ut_id": 12,
+    "ut_name": "Community College",
+    "ut_type": 2,
+    "ut_status": 1,
+    "created_at": "2024-03-20 18:52:22",
+    "updated_at": "2024-03-20 18:52:22"
+  },
+  {
+    "ut_id": 13,
+    "ut_name": "Polytechnic",
+    "ut_type": 2,
+    "ut_status": 1,
+    "created_at": "2024-03-20 18:53:10",
+    "updated_at": "2024-03-20 18:53:10"
+  },
+  {
+    "ut_id": 14,
+    "ut_name": "Public Universities",
+    "ut_type": 2,
+    "ut_status": 1,
+    "created_at": "2024-03-20 18:53:20",
+    "updated_at": "2024-03-20 18:53:20"
+  },
+  {
+    "ut_id": 15,
+    "ut_name": "IPTS",
+    "ut_type": 2,
+    "ut_status": 99,
+    "created_at": "2024-03-20 18:53:26",
+    "updated_at": "2024-03-20 18:53:26"
+  },
+  {
+    "ut_id": 16,
+    "ut_name": "IPTS",
+    "ut_type": 1,
+    "ut_status": 99,
+    "created_at": "2024-03-20 18:53:56",
+    "updated_at": "2024-03-20 18:53:56"
+  },
+  {
+    "ut_id": 17,
+    "ut_name": "Private University",
+    "ut_type": 1,
+    "ut_status": 1,
+    "created_at": "2024-03-29 16:55:39",
+    "updated_at": "2024-03-29 16:55:39"
+  },
+  {
+    "ut_id": 18,
+    "ut_name": "High Ranking",
+    "ut_type": 1,
+    "ut_status": 1,
+    "created_at": "2024-03-29 16:56:20",
+    "updated_at": "2024-03-29 16:56:20"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "sc_id": 1,
+    "sc_name": "compulsory Subjects",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 2,
+    "sc_name": "Science & Mathematics",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 3,
+    "sc_name": "Social Science",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 4,
+    "sc_name": "Economics & Business",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 5,
+    "sc_name": "Technical & vocational",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 6,
+    "sc_name": "English Language and literature",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 7,
+    "sc_name": "Languages",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 8,
+    "sc_name": "Mathematics",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 9,
+    "sc_name": "UEC Subjects",
+    "sc_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "sc_id": 10,
+    "sc_name": "test",
+    "sc_status": 99,
+    "created_at": "2024-01-24 15:34:37",
+    "updated_at": "2024-01-24 15:34:37"
+  },
+  {
+    "sc_id": 11,
+    "sc_name": "test1",
+    "sc_status": 99,
+    "created_at": "2024-01-24 15:46:29",
+    "updated_at": "2024-01-24 15:46:29"
+  },
+  {
+    "sc_id": 12,
+    "sc_name": "test",
+    "sc_status": 99,
+    "created_at": "2024-01-24 17:26:53",
+    "updated_at": "2024-01-24 17:26:53"
+  },
+  {
+    "sc_id": 13,
+    "sc_name": "test1",
+    "sc_status": 99,
+    "created_at": "2024-01-24 17:27:53",
+    "updated_at": "2024-01-24 17:27:53"
+  },
+  {
+    "sc_id": 14,
+    "sc_name": 123123,
+    "sc_status": 99,
+    "created_at": "2024-01-24 19:50:31",
+    "updated_at": "2024-01-24 19:50:31"
+  },
+  {
+    "sc_id": 15,
+    "sc_name": "Medicine",
+    "sc_status": 99,
+    "created_at": "2024-03-05 13:31:04",
+    "updated_at": "2024-03-05 13:31:04"
+  },
+  {
+    "sc_id": 16,
+    "sc_name": "cat2",
+    "sc_status": 99,
+    "created_at": "2024-03-06 19:09:45",
+    "updated_at": "2024-03-06 19:09:45"
+  },
+  {
+    "sc_id": 17,
+    "sc_name": "English",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:04",
+    "updated_at": "2024-03-21 23:25:04"
+  },
+  {
+    "sc_id": 18,
+    "sc_name": "Business",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:11",
+    "updated_at": "2024-03-21 23:25:11"
+  },
+  {
+    "sc_id": 19,
+    "sc_name": "Computer Studies",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:28",
+    "updated_at": "2024-03-21 23:25:28"
+  },
+  {
+    "sc_id": 20,
+    "sc_name": "Performing Arts",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:45",
+    "updated_at": "2024-03-21 23:25:45"
+  },
+  {
+    "sc_id": 21,
+    "sc_name": "Sciences",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:49",
+    "updated_at": "2024-03-21 23:25:49"
+  },
+  {
+    "sc_id": 22,
+    "sc_name": "Social Sciences",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:25:55",
+    "updated_at": "2024-03-21 23:25:55"
+  },
+  {
+    "sc_id": 23,
+    "sc_name": "Social Science & Arts",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:27:01",
+    "updated_at": "2024-03-21 23:27:01"
+  },
+  {
+    "sc_id": 24,
+    "sc_name": "Language & Literature",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:27:48",
+    "updated_at": "2024-03-21 23:27:48"
+  },
+  {
+    "sc_id": 25,
+    "sc_name": "Humanities & Social Sciences",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:28:18",
+    "updated_at": "2024-03-21 23:28:18"
+  },
+  {
+    "sc_id": 26,
+    "sc_name": "Creative & Professional",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:28:29",
+    "updated_at": "2024-03-21 23:28:29"
+  },
+  {
+    "sc_id": 27,
+    "sc_name": "UEC Subjects",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:29:38",
+    "updated_at": "2024-03-21 23:29:38"
+  },
+  {
+    "sc_id": 28,
+    "sc_name": "The Arts",
+    "sc_status": 99,
+    "created_at": "2024-03-21 23:31:50",
+    "updated_at": "2024-03-21 23:31:50"
+  },
+  {
+    "sc_id": 29,
+    "sc_name": "Compulsory Subjects",
+    "sc_status": 1,
+    "created_at": "2024-03-29 17:01:38",
+    "updated_at": "2024-03-29 17:01:38"
+  },
+  {
+    "sc_id": 30,
+    "sc_name": "Elective",
+    "sc_status": 1,
+    "created_at": "2024-03-29 17:12:04",
+    "updated_at": "2024-03-29 17:12:04"
+  }
+]

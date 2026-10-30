@@ -1,0 +1,23 @@
+name = "edu4u"
+main = ".open-next/worker.js"
+compatibility_date = "2025-10-01"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+workers_dev = true
+preview_urls = true
+
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[services]]
+binding = "WORKER_SELF_REFERENCE"
+service = "edu4u"
+
+[images]
+binding = "IMAGES"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://edu4u.world"
+NEXT_PUBLIC_SUPABASE_URL = "https://fmlkrtshkvgatzpnymlo.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZtbGtydHNoa3ZnYXR6cG55bWxvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyOTY0NDAsImV4cCI6MjEwODg3MjQ0MH0.RuaiF725L8JMvnvw-z8PshievoBbuhDZZaUc9WX13iw"

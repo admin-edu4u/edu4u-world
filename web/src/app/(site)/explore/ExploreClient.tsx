@@ -1,0 +1,949 @@
+"use client";
+
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { CustomDropdown } from "@/components/ui/CustomDropdown";
+import { useT } from "@/components/LocaleProvider";
+
+// -- Types --
+interface StudyField { c_id: number; c_name: string; }
+interface StateOption { state_id: number; state_name: string; }
+
+interface UniItem {
+  id: number; url: string; name: string; img: string;
+  ttl_course: number; ttl_scholarship: number;
+  has_branch: boolean; ttl_branch: number; state: string;
+}
+
+interface CourseItem {
+  id: number; url_code: string; name: string;
+  uni_name: string; uni_logo: string;
+  duration: string; intake: string;
+  ttl_fees: string; deals: string; scholarship: string; ttl_amt: string;
+}
+
+interface ScholarshipItem {
+  id: number; url_code: string; name: string;
+  uni_name: string; uni_logo: string;
+  applicable: string; has_all_cat: boolean;
+  has_interview: string; requirement: string; max_discount: string;
+}
+
+// -- Helpers --
+function buildQuery(params: Record<string, string | string[]>): string {
+  const parts: string[] = [];
+  for (const [key, val] of Object.entries(params)) {
+    if (Array.isArray(val)) {
+      val.forEach((v) => { if (v) parts.push(`${key}[]=${encodeURIComponent(v)}`); });
+    } else if (val) {
+      parts.push(`${key}=${encodeURIComponent(val)}`);
+    }
+  }
+  return parts.join("&");
+}
+
+// -- Icons --
+function SearchIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M21.0002 21L16.6572 16.657M16.6572 16.657C17.4001 15.9141 17.9894 15.0322 18.3914 14.0615C18.7935 13.0909 19.0004 12.0506 19.0004 11C19.0004 9.94939 18.7935 8.90908 18.3914 7.93845C17.9894 6.96782 17.4001 6.08588 16.6572 5.34299C15.9143 4.6001 15.0324 4.01081 14.0618 3.60877C13.0911 3.20672 12.0508 2.99979 11.0002 2.99979C9.9496 2.99979 8.90929 3.20672 7.93866 3.60877C6.96803 4.01081 6.08609 4.6001 5.34321 5.34299C3.84288 6.84332 3 8.87821 3 11C3 13.1218 3.84288 15.1567 5.34321 16.657C6.84354 18.1573 8.87842 19.0002 11.0002 19.0002C13.122 19.0002 15.1569 18.1573 16.6572 16.657Z"
+        stroke="#999999" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function LocationIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+      <path
+        d="M8.00001 1.32999C6.54184 1.33171 5.1439 1.91172 4.11282 2.9428C3.08174 3.97388 2.50173 5.37182 2.50001 6.82999C2.49826 8.0216 2.8875 9.18088 3.60801 10.13C3.60801 10.13 3.75801 10.3275 3.78251 10.356L8.00001 15.33L12.2195 10.3535C12.2415 10.327 12.392 10.13 12.392 10.13L12.3925 10.1285C13.1127 9.17979 13.5017 8.02105 13.5 6.82999C13.4983 5.37182 12.9183 3.97388 11.8872 2.9428C10.8561 1.91172 9.45817 1.33171 8.00001 1.32999ZM8.00001 8.82999C7.60444 8.82999 7.21776 8.71269 6.88887 8.49293C6.55997 8.27316 6.30362 7.96081 6.15225 7.59535C6.00087 7.2299 5.96126 6.82777 6.03844 6.43981C6.11561 6.05184 6.30609 5.69548 6.58579 5.41577C6.8655 5.13607 7.22186 4.94559 7.60983 4.86842C7.99779 4.79125 8.39992 4.83085 8.76537 4.98223C9.13082 5.1336 9.44318 5.38995 9.66294 5.71885C9.88271 6.04774 10 6.43442 10 6.82999C9.99934 7.36022 9.78842 7.86854 9.41349 8.24347C9.03856 8.6184 8.53024 8.82933 8.00001 8.82999Z"
+        fill="#999999"
+      />
+    </svg>
+  );
+}
+
+// -- Sub-components --
+
+function AccordionSection({
+  id, title, open, onToggle, children,
+}: {
+  id: string; title: string; open: boolean;
+  onToggle: () => void; children: React.ReactNode;
+}) {
+  return (
+    <div className="accordion-item">
+      <h2 className="accordion-header" id={`${id}_hdr`}>
+        <button
+          className={`accordion-button${open ? "" : " collapsed"}`}
+          type="button"
+          onClick={onToggle}
+          aria-expanded={open}
+          aria-controls={`${id}_body`}
+        >
+          {title}
+        </button>
+      </h2>
+      <div
+        id={`${id}_body`}
+        className={`accordion-collapse collapse${open ? " show" : ""}`}
+        aria-labelledby={`${id}_hdr`}
+      >
+        <div className="accordion-body">{children}</div>
+      </div>
+    </div>
+  );
+}
+
+function CheckboxGroup({
+  name, options, checked, onChange,
+}: {
+  name: string;
+  options: { value: string; label: string }[];
+  checked: string[];
+  onChange: (vals: string[]) => void;
+}) {
+  return (
+    <>
+      {options.map((opt, i) => (
+        <div className="form-check form-check-custom form-check-sm mb-5" key={opt.value}>
+          <input
+            className="form-check-input"
+            type="checkbox"
+            name={name}
+            value={opt.value}
+            id={`${name}_${i}`}
+            checked={checked.includes(opt.value)}
+            onChange={(e) => {
+              if (e.target.checked) {
+                onChange([...checked, opt.value]);
+              } else {
+                onChange(checked.filter((v) => v !== opt.value));
+              }
+            }}
+          />
+          <label className="form-check-label" htmlFor={`${name}_${i}`}>
+            {opt.label}
+          </label>
+        </div>
+      ))}
+    </>
+  );
+}
+
+function UniCard({ item }: { item: UniItem }) {
+  const t = useT();
+  return (
+    <div className="col-12 col-md-4 mt-5">
+      <a href={`/university/${item.url}`} className="text-decoration-none">
+        <div className="col-12 explore-uni-outter">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="uni-img" src={item.img} alt={item.name} />
+          <span className="d-block uni-name pt-5">{item.name}</span>
+          <div className="mt-2">
+            <LocationIcon />
+            {item.has_branch && item.ttl_branch > 0 ? (
+              <span className="uni-location">{item.state} +{item.ttl_branch} more</span>
+            ) : (
+              <span className="uni-location">{item.state}</span>
+            )}
+          </div>
+          <div className="d-flex justify-content-center mt-7">
+            <div className="col-12 bg-grey br-8 row" style={{ padding: 16 }}>
+              <div className="col-6">
+                <span className="uni-location d-block">{t("courses")}</span>
+                <span className="uni-total d-block">{item.ttl_course}</span>
+              </div>
+              <div className="col-6">
+                <span className="uni-location d-block">{t("scholarship")}</span>
+                <span className="uni-total d-block">{item.ttl_scholarship}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  );
+}
+
+function CourseCard({ item }: { item: CourseItem }) {
+  const t = useT();
+  const truncated =
+    item.name.length > 75 ? item.name.substring(0, 75) + "..." : item.name;
+  return (
+    <div className="col-12 col-md-6 mt-5">
+      <a href={`/course-details/${item.url_code}`} className="text-decoration-none">
+        <div className="col-12 explore-course-outter">
+          <div className="d-flex justify-content-between">
+            <div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="course-uni-img" src={item.uni_logo} alt={item.uni_name} />
+            </div>
+          </div>
+          <div>
+            <span className="d-block uni-name mt-5 mb-3" style={{ height: 48 }}>
+              {truncated}
+            </span>
+            <span className="uni-location d-block">{item.uni_name}</span>
+            <div className="separator my-5"></div>
+            <div className="col-12 row">
+              <div className="col-3">
+                <span className="uni-location d-block">{t("durationLabel")}</span>
+                <span className="uni-total d-block pt-2">{item.duration}</span>
+              </div>
+              <div className="col-9">
+                <span className="uni-location d-block">{t("intake")}</span>
+                <span className="uni-total d-block pt-2">{item.intake}</span>
+              </div>
+            </div>
+            <div className="separator my-5"></div>
+            <div className="d-flex justify-content-between">
+              <span className="uni-location">{t("totalFees")}</span>
+              <span className="uni-total">{item.ttl_fees}</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="uni-location">{t("deals")}</span>
+              <span className="uni-total">{item.deals}</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="uni-location">{t("scholarship")}</span>
+              <span className="uni-total">{item.scholarship}</span>
+            </div>
+            <div className="separator my-5"></div>
+            <span className="uni-total d-block text-end">
+              <span className="ttl-amt">{item.ttl_amt}</span>
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  );
+}
+
+function ScholarshipCard({ item }: { item: ScholarshipItem }) {
+  const t = useT();
+  return (
+    <div className="col-12 col-md-6 mt-5">
+      <a href={`/scholarship/${item.url_code}`} className="text-decoration-none">
+        <div className="col-12 explore-course-outter">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="course-uni-img" src={item.uni_logo} alt={item.uni_name} />
+          <div>
+            <span className="d-block uni-name pt-5">{item.name}</span>
+            <span className="uni-location d-block">{item.uni_name}</span>
+            <div className="separator my-5"></div>
+            <span className="uni-location d-block">{t("applicableFor")}</span>
+            <span className="uni-total d-block pt-2" id="applicable">
+              {item.has_all_cat ? t("exploreAllFields") : item.applicable}
+            </span>
+            <div className="separator my-5"></div>
+            <div className="d-flex justify-content-between">
+              <span className="uni-location">{t("interviewRequired")}</span>
+              <span className="uni-total">{item.has_interview}</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="uni-location">{t("approval")}</span>
+              <span className="uni-total">{t("instantApproval")}</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <div>
+                <span className="uni-location">{t("requirements")}</span>
+              </div>
+              <div className="text-end">
+                <span className="uni-total">{item.requirement}</span>
+              </div>
+            </div>
+            <div className="separator my-5"></div>
+            <span className="uni-total d-block text-end">
+              {t("feesWaiver")}<span className="ttl-amt"> {item.max_discount}</span>
+            </span>
+            <button className="w-100 mt-10 apply-scholarship-btn">
+              {t("pathway360")} - {t("applicable")}
+            </button>
+          </div>
+        </div>
+      </a>
+    </div>
+  );
+}
+
+function EmptyState({ msg }: { msg: string }) {
+  return (
+    <div className="col-12 mt-5" style={{ color: "#999", textAlign: "center" }}>
+      {msg}
+    </div>
+  );
+}
+
+// -- Main component --
+
+export default function ExploreClient({
+  initialTab,
+  studyFields,
+  states,
+}: {
+  initialTab: string;
+  studyFields: StudyField[];
+  states: StateOption[];
+}) {
+  const t = useT();
+  const router = useRouter();
+  const pathname = usePathname();
+  const [tab, setTab] = useState(initialTab);
+
+  const levelOptions = useMemo(
+    () => [
+      { value: "1", label: t("exploreLevelFoundation") },
+      { value: "2", label: t("exploreLevelDiploma") },
+      { value: "3", label: t("exploreLevelDegree") },
+      { value: "4", label: t("exploreLevelMasters") },
+      { value: "5", label: t("exploreLevelPhd") },
+    ],
+    [t],
+  );
+  const scholarshipRanges = useMemo(
+    () => [
+      { value: "1", label: t("none") },
+      { value: "2", label: t("exploreSchRange2") },
+      { value: "3", label: t("exploreSchRange3") },
+      { value: "4", label: t("exploreSchRange4") },
+      { value: "5", label: t("exploreSchRange5") },
+    ],
+    [t],
+  );
+  const feeRanges = useMemo(
+    () => [
+      { value: "1", label: t("exploreFeeBelow20k") },
+      { value: "2", label: t("exploreFee20to40k") },
+      { value: "3", label: t("exploreFee40to60k") },
+      { value: "4", label: t("exploreFee60to80k") },
+      { value: "5", label: t("exploreFee80to100k") },
+      { value: "6", label: t("exploreFeeAbove100k") },
+    ],
+    [t],
+  );
+  const durationOptions = useMemo(
+    () =>
+      [1, 2, 3, 4, 5].map((n) => ({
+        value: String(n),
+        label: `${n} ${n === 1 ? t("yearSingular") : t("years")}`,
+      })),
+    [t],
+  );
+  const monthOptions = useMemo(
+    () =>
+      (
+        [
+          "january", "february", "march", "april", "may", "june",
+          "july", "august", "september", "october", "november", "december",
+        ] as const
+      ).map((key, i) => ({ value: String(i + 1), label: t(key) })),
+    [t],
+  );
+  const countryOptions = useMemo(
+    () => [
+      { value: "129", label: t("malaysia") },
+      { value: "192", label: t("singapore") },
+      { value: "13", label: t("australia") },
+      { value: "826", label: t("unitedKingdom") },
+      { value: "840", label: t("unitedStates") },
+    ],
+    [t],
+  );
+
+  // Accordion open state (shared across tabs)
+  const [openAcc, setOpenAcc] = useState<Record<string, boolean>>({});
+  const toggle = useCallback(
+    (id: string) => setOpenAcc((p) => ({ ...p, [id]: !p[id] })),
+    []
+  );
+
+  // -- University filter state --
+  const [uniSearch, setUniSearch] = useState("");
+  const [uniSort, setUniSort] = useState("1");
+  const [uniStudyField, setUniStudyField] = useState<string[]>([]);
+  const [uniLevel, setUniLevel] = useState<string[]>([]);
+  const [uniScholarship, setUniScholarship] = useState<string[]>([]);
+  const [uniCountry, setUniCountry] = useState<string[]>([]);
+  const [uniState, setUniState] = useState<string[]>([]);
+  const [uniList, setUniList] = useState<UniItem[] | null>(null);
+  const [uniLoading, setUniLoading] = useState(false);
+
+  // -- Course filter state --
+  const [courseSearch, setCourseSearch] = useState("");
+  const [courseSort, setCourseSort] = useState("1");
+  const [courseStudyField, setCourseStudyField] = useState<string[]>([]);
+  const [courseLevel, setCourseLevel] = useState<string[]>([]);
+  const [courseScholarship, setCourseScholarship] = useState<string[]>([]);
+  const [courseFee, setCourseFee] = useState<string[]>([]);
+  const [courseDuration, setCourseDuration] = useState<string[]>([]);
+  const [courseMonth, setCourseMonth] = useState<string[]>([]);
+  const [courseCountry, setCourseCountry] = useState<string[]>([]);
+  const [courseState, setCourseState] = useState<string[]>([]);
+  const [courseList, setCourseList] = useState<CourseItem[] | null>(null);
+  const [courseLoading, setCourseLoading] = useState(false);
+
+  // -- Scholarship filter state --
+  const [schSearch, setSchSearch] = useState("");
+  const [schSort, setSchSort] = useState("1");
+  const [schCountry, setSchCountry] = useState<string[]>([]);
+  const [schState, setSchState] = useState<string[]>([]);
+  const [schStudyField, setSchStudyField] = useState<string[]>([]);
+  const [schLevel, setSchLevel] = useState<string[]>([]);
+  const [schList, setSchList] = useState<ScholarshipItem[] | null>(null);
+  const [schLoading, setSchLoading] = useState(false);
+
+  // -- Fetch functions --
+  const fetchUnis = useCallback(async () => {
+    setUniLoading(true);
+    try {
+      const qs = buildQuery({
+        search: uniSearch,
+        sort: uniSort,
+        "study_field": uniStudyField,
+        "level": uniLevel,
+        "scholarship": uniScholarship,
+        "country": uniCountry,
+        "state": uniState,
+      });
+      const res = await fetch(`/api/explore/universities?${qs}`);
+      const data = await res.json();
+      setUniList(data.status ? data.list : []);
+    } catch {
+      setUniList([]);
+    }
+    setUniLoading(false);
+  }, [uniSearch, uniSort, uniStudyField, uniLevel, uniScholarship, uniCountry, uniState]);
+
+  const fetchCourses = useCallback(async () => {
+    setCourseLoading(true);
+    try {
+      const qs = buildQuery({
+        search: courseSearch,
+        sort: courseSort,
+        "study_field": courseStudyField,
+        "level": courseLevel,
+        "scholarship": courseScholarship,
+        "fee": courseFee,
+        "duration": courseDuration,
+        "month": courseMonth,
+        "country": courseCountry,
+        "state": courseState,
+      });
+      const res = await fetch(`/api/explore/courses?${qs}`);
+      const data = await res.json();
+      setCourseList(data.status ? data.list : []);
+    } catch {
+      setCourseList([]);
+    }
+    setCourseLoading(false);
+  }, [courseSearch, courseSort, courseStudyField, courseLevel, courseScholarship, courseFee, courseDuration, courseMonth, courseCountry, courseState]);
+
+  const fetchScholarships = useCallback(async () => {
+    setSchLoading(true);
+    try {
+      const qs = buildQuery({
+        search: schSearch,
+        sort: schSort,
+        "country": schCountry,
+        "state": schState,
+        "study_field": schStudyField,
+        "level": schLevel,
+      });
+      const res = await fetch(`/api/explore/scholarships?${qs}`);
+      const data = await res.json();
+      setSchList(data.status ? data.list : []);
+    } catch {
+      setSchList([]);
+    }
+    setSchLoading(false);
+  }, [schSearch, schSort, schCountry, schState, schStudyField, schLevel]);
+
+  useEffect(() => { fetchUnis(); }, [fetchUnis]);
+  useEffect(() => { fetchCourses(); }, [fetchCourses]);
+  useEffect(() => { fetchScholarships(); }, [fetchScholarships]);
+
+  function switchTab(newTab: string) {
+    setTab(newTab);
+    router.replace(`${pathname}?tab=${newTab}`, { scroll: false });
+  }
+
+  function resetUniFilters() {
+    setUniSearch(""); setUniSort("1");
+    setUniStudyField([]); setUniLevel([]);
+    setUniScholarship([]); setUniCountry([]);
+    setUniState([]);
+  }
+
+  function resetCourseFilters() {
+    setCourseSearch(""); setCourseSort("1");
+    setCourseStudyField([]); setCourseLevel([]);
+    setCourseScholarship([]); setCourseFee([]);
+    setCourseDuration([]); setCourseMonth([]);
+    setCourseCountry([]); setCourseState([]);
+  }
+
+  function resetSchFilters() {
+    setSchSearch(""); setSchSort("1");
+    setSchCountry([]); setSchState([]);
+    setSchStudyField([]); setSchLevel([]);
+  }
+
+  const studyFieldOpts = studyFields.map((sf) => ({
+    value: String(sf.c_id),
+    label: sf.c_name,
+  }));
+  const stateOpts = states.map((s) => ({
+    value: String(s.state_id),
+    label: s.state_name,
+  }));
+
+  return (
+    <>
+      {/* Tab pills */}
+      <ul className="nav nav-pills mb-10 mt-4" id="pills-tab" role="tablist">
+        {[
+          { key: "university", label: t("uni") },
+          { key: "course", label: t("courses") },
+          { key: "scholarship", label: t("scholarships") },
+        ].map((t) => (
+          <li className="nav-item" role="presentation" key={t.key}>
+            <button
+              className={`nav-link options-toggle${tab === t.key ? " active" : ""}`}
+              type="button"
+              role="tab"
+              aria-selected={tab === t.key}
+              onClick={() => switchTab(t.key)}
+            >
+              {t.label}
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      {/* Tab content */}
+      <div className="tab-content mb-20" id="pills-tabContent">
+
+        {/* ---- University tab ---- */}
+        <div
+          className={`tab-pane fade${tab === "university" ? " show active" : ""} text-white`}
+          id="pills-orders"
+          role="tabpanel"
+          aria-labelledby="pills-orders-tab"
+        >
+          <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-stretch gap-4 gap-lg-0">
+            {/* Filter sidebar */}
+            <div className="col-12 col-lg-3">
+              <aside className="explore-filter-outer">
+                <span className="explore-filter-heading">{t("filters")}</span>
+                <span className="explore-filter-title">{t("courseInfo")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="uni_acc_1">
+                    <AccordionSection
+                      id="uni_field" title={t("fieldOfStudy")}
+                      open={!!openAcc["uni_field"]} onToggle={() => toggle("uni_field")}
+                    >
+                      <CheckboxGroup
+                        name="study_field" options={studyFieldOpts}
+                        checked={uniStudyField} onChange={setUniStudyField}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="uni_level" title={t("level")}
+                      open={!!openAcc["uni_level"]} onToggle={() => toggle("uni_level")}
+                    >
+                      <CheckboxGroup
+                        name="level" options={levelOptions}
+                        checked={uniLevel} onChange={setUniLevel}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="uni_scholarship" title={t("scholarships")}
+                      open={!!openAcc["uni_scholarship"]} onToggle={() => toggle("uni_scholarship")}
+                    >
+                      <CheckboxGroup
+                        name="scholarship" options={scholarshipRanges}
+                        checked={uniScholarship} onChange={setUniScholarship}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <span className="explore-filter-title">{t("location")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="uni_acc_5">
+                    <AccordionSection
+                      id="uni_country" title={t("country")}
+                      open={!!openAcc["uni_country"]} onToggle={() => toggle("uni_country")}
+                    >
+                      <CheckboxGroup
+                        name="country" options={countryOptions}
+                        checked={uniCountry} onChange={setUniCountry}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="uni_state" title={t("state")}
+                      open={!!openAcc["uni_state"]} onToggle={() => toggle("uni_state")}
+                    >
+                      <CheckboxGroup
+                        name="state" options={stateOpts}
+                        checked={uniState} onChange={setUniState}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <div className="explore-filter-actions">
+                  <button type="button" className="explore-filter-btn" onClick={resetUniFilters}>
+                    {t("resetFilter")}
+                  </button>
+                </div>
+              </aside>
+            </div>
+
+            {/* Results */}
+            <div className="col-12 col-lg-9">
+              <div className="ms-lg-10">
+                <div className="col-12 row mx-auto">
+                  <div className="filter-width">
+                    <div className="input-group input-group-solid explore-search-group col-6">
+                      <span className="input-group-text explore-search-icon" id="uni-search-icon">
+                        <SearchIcon />
+                      </span>
+                      <input
+                        type="text"
+                        name="search_uni"
+                        className="form-control explore-search-uni"
+                        placeholder={t("searchUni")}
+                        aria-label={t("searchUni")}
+                        aria-describedby="uni-search-icon"
+                        value={uniSearch}
+                        onChange={(e) => setUniSearch(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="explore-sort-wrap">
+                    <CustomDropdown
+                      name="sort-uni"
+                      className="explore-sort sort-uni"
+                      value={uniSort}
+                      onChange={setUniSort}
+                      options={[
+                        { value: "1", label: t("exploreSortAtoZ") },
+                        { value: "2", label: t("exploreSortZtoA") },
+                      ]}
+                    />
+                  </div>
+                </div>
+                <div id="uni_list">
+                  {uniLoading || uniList === null ? (
+                    <div className="col-12 row m-0">
+                      <EmptyState msg={t("loading")} />
+                    </div>
+                  ) : uniList.length === 0 ? (
+                    <div className="col-12 row m-0">
+                      <EmptyState msg={t("noUniversitiesFound")} />
+                    </div>
+                  ) : (
+                    <div className="col-12 row m-0">
+                      {uniList.map((item) => (
+                        <UniCard key={item.id} item={item} />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ---- Course tab ---- */}
+        <div
+          className={`tab-pane fade${tab === "course" ? " show active" : ""} text-white`}
+          id="pills-courses"
+          role="tabpanel"
+          aria-labelledby="pills-subscriptions-tab"
+        >
+          <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-stretch gap-4 gap-lg-0">
+            {/* Filter sidebar */}
+            <div className="col-12 col-lg-3">
+              <aside className="explore-filter-outer">
+                <span className="explore-filter-heading">{t("filters")}</span>
+                <span className="explore-filter-title">{t("courseInfo")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="c_acc_1">
+                    <AccordionSection
+                      id="c_field" title={t("fieldOfStudy")}
+                      open={!!openAcc["c_field"]} onToggle={() => toggle("c_field")}
+                    >
+                      <CheckboxGroup
+                        name="major_study_field" options={studyFieldOpts}
+                        checked={courseStudyField} onChange={setCourseStudyField}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="c_level" title={t("level")}
+                      open={!!openAcc["c_level"]} onToggle={() => toggle("c_level")}
+                    >
+                      <CheckboxGroup
+                        name="course_level" options={levelOptions}
+                        checked={courseLevel} onChange={setCourseLevel}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="c_scholarship" title={t("scholarships")}
+                      open={!!openAcc["c_scholarship"]} onToggle={() => toggle("c_scholarship")}
+                    >
+                      <CheckboxGroup
+                        name="course_scholarship" options={scholarshipRanges}
+                        checked={courseScholarship} onChange={setCourseScholarship}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <span className="explore-filter-title">{t("financialsTiming")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="c_acc_4">
+                    <AccordionSection
+                      id="c_fee" title={t("feeBudget")}
+                      open={!!openAcc["c_fee"]} onToggle={() => toggle("c_fee")}
+                    >
+                      <CheckboxGroup
+                        name="course_fee" options={feeRanges}
+                        checked={courseFee} onChange={setCourseFee}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="c_duration" title={t("fullTimeDuration")}
+                      open={!!openAcc["c_duration"]} onToggle={() => toggle("c_duration")}
+                    >
+                      <CheckboxGroup
+                        name="course_duration" options={durationOptions}
+                        checked={courseDuration} onChange={setCourseDuration}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="c_month" title={t("intakeMonth")}
+                      open={!!openAcc["c_month"]} onToggle={() => toggle("c_month")}
+                    >
+                      <CheckboxGroup
+                        name="course_month" options={monthOptions}
+                        checked={courseMonth} onChange={setCourseMonth}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <span className="explore-filter-title">{t("location")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="c_acc_7">
+                    <AccordionSection
+                      id="c_country" title={t("country")}
+                      open={!!openAcc["c_country"]} onToggle={() => toggle("c_country")}
+                    >
+                      <CheckboxGroup
+                        name="course_country" options={countryOptions}
+                        checked={courseCountry} onChange={setCourseCountry}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="c_state" title={t("state")}
+                      open={!!openAcc["c_state"]} onToggle={() => toggle("c_state")}
+                    >
+                      <CheckboxGroup
+                        name="course_state" options={stateOpts}
+                        checked={courseState} onChange={setCourseState}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <div className="explore-filter-actions">
+                  <button type="button" className="explore-filter-btn" onClick={resetCourseFilters}>
+                    {t("resetFilter")}
+                  </button>
+                </div>
+              </aside>
+            </div>
+
+            {/* Results */}
+            <div className="col-12 col-lg-9">
+              <div className="ms-lg-10">
+                <div className="col-12 row mx-auto">
+                  <div className="filter-width">
+                    <div className="input-group input-group-solid explore-search-group col-6">
+                      <span className="input-group-text explore-search-icon" id="course-search-icon">
+                        <SearchIcon />
+                      </span>
+                      <input
+                        type="text"
+                        name="course_search"
+                        className="form-control explore-search-uni"
+                        placeholder={t("searchCourses")}
+                        aria-label={t("searchCourses")}
+                        aria-describedby="course-search-icon"
+                        value={courseSearch}
+                        onChange={(e) => setCourseSearch(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="explore-sort-wrap">
+                    <CustomDropdown
+                      name="sort-courses"
+                      className="explore-sort sort-courses"
+                      value={courseSort}
+                      onChange={setCourseSort}
+                      options={[
+                        { value: "1", label: t("sortLowestShort") },
+                        { value: "2", label: t("sortHighestShort") },
+                      ]}
+                    />
+                  </div>
+                </div>
+                <div id="course_list">
+                  {courseLoading || courseList === null ? (
+                    <div className="col-12 row justify-content-between m-0">
+                      <EmptyState msg={t("loading")} />
+                    </div>
+                  ) : courseList.length === 0 ? (
+                    <div className="col-12 row justify-content-between m-0">
+                      <EmptyState msg={t("noCoursesFound")} />
+                    </div>
+                  ) : (
+                    <div className="col-12 row justify-content-between m-0">
+                      {courseList.map((item) => (
+                        <CourseCard key={item.id} item={item} />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ---- Scholarship tab ---- */}
+        <div
+          className={`tab-pane fade${tab === "scholarship" ? " show active" : ""} text-white`}
+          id="pills-scholarship"
+          role="tabpanel"
+          aria-labelledby="pills-subscriptions-tab"
+        >
+          <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-stretch gap-4 gap-lg-0">
+            {/* Filter sidebar */}
+            <div className="col-12 col-lg-3">
+              <aside className="explore-filter-outer">
+                <span className="explore-filter-heading">{t("filters")}</span>
+                <span className="explore-filter-title">{t("location")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="s_acc_1">
+                    <AccordionSection
+                      id="s_country" title={t("country")}
+                      open={!!openAcc["s_country"]} onToggle={() => toggle("s_country")}
+                    >
+                      <CheckboxGroup
+                        name="scholarship_country" options={countryOptions}
+                        checked={schCountry} onChange={setSchCountry}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="s_state" title={t("state")}
+                      open={!!openAcc["s_state"]} onToggle={() => toggle("s_state")}
+                    >
+                      <CheckboxGroup
+                        name="scholarship_state" options={stateOpts}
+                        checked={schState} onChange={setSchState}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <span className="explore-filter-title">{t("courseInfo")}</span>
+                <div className="explore-filter-section">
+                  <div className="accordion" id="s_acc_3">
+                    <AccordionSection
+                      id="s_field" title={t("fieldOfStudy")}
+                      open={!!openAcc["s_field"]} onToggle={() => toggle("s_field")}
+                    >
+                      <CheckboxGroup
+                        name="scholarship_study_field" options={studyFieldOpts}
+                        checked={schStudyField} onChange={setSchStudyField}
+                      />
+                    </AccordionSection>
+                    <AccordionSection
+                      id="s_level" title={t("level")}
+                      open={!!openAcc["s_level"]} onToggle={() => toggle("s_level")}
+                    >
+                      <CheckboxGroup
+                        name="scholarship_level" options={levelOptions}
+                        checked={schLevel} onChange={setSchLevel}
+                      />
+                    </AccordionSection>
+                  </div>
+                </div>
+                <div className="explore-filter-actions">
+                  <button type="button" className="explore-filter-btn" onClick={resetSchFilters}>
+                    {t("resetFilter")}
+                  </button>
+                </div>
+              </aside>
+            </div>
+
+            {/* Results */}
+            <div className="col-12 col-lg-9">
+              <div className="ms-lg-10">
+                <div className="col-12 row mx-auto">
+                  <div className="filter-width">
+                    <div className="input-group input-group-solid explore-search-group col-6">
+                      <span className="input-group-text explore-search-icon" id="sch-search-icon">
+                        <SearchIcon />
+                      </span>
+                      <input
+                        type="text"
+                        name="search_scholarship"
+                        className="form-control explore-search-uni"
+                        placeholder={t("searchScholarship")}
+                        aria-label={t("searchScholarship")}
+                        aria-describedby="sch-search-icon"
+                        value={schSearch}
+                        onChange={(e) => setSchSearch(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="explore-sort-wrap">
+                    <CustomDropdown
+                      name="sort-scholarship"
+                      className="explore-sort sort-scholarship"
+                      value={schSort}
+                      onChange={setSchSort}
+                      options={[
+                        { value: "1", label: t("schSortHighPct") },
+                        { value: "2", label: t("schSortLowPct") },
+                        { value: "3", label: t("schSortHighAmt") },
+                        { value: "4", label: t("schSortLowAmt") },
+                      ]}
+                    />
+                  </div>
+                </div>
+                <div id="scholarship_list">
+                  {schLoading || schList === null ? (
+                    <div className="col-12 row justify-content-between m-0">
+                      <EmptyState msg={t("loading")} />
+                    </div>
+                  ) : schList.length === 0 ? (
+                    <div className="col-12 row justify-content-between m-0">
+                      <EmptyState msg={t("noScholarshipsFound")} />
+                    </div>
+                  ) : (
+                    <div className="col-12 row justify-content-between m-0">
+                      {schList.map((item) => (
+                        <ScholarshipCard key={item.id} item={item} />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "country_id": 13,
+    "country_code": "AU",
+    "country_name": "Australia",
+    "country_ch_name": "Australia",
+    "country_nicename": "Australia",
+    "country_rep": "AUS",
+    "country_no": 13,
+    "delivery_fee": 0,
+    "phonecode": 61
+  },
+  {
+    "country_id": 44,
+    "country_code": "CH",
+    "country_name": "China",
+    "country_ch_name": "China",
+    "country_nicename": "China",
+    "country_rep": "CH",
+    "country_no": 44,
+    "delivery_fee": 9,
+    "phonecode": 20
+  },
+  {
+    "country_id": 129,
+    "country_code": "MY",
+    "country_name": "Malaysia",
+    "country_ch_name": "Malaysia",
+    "country_nicename": "Malaysia",
+    "country_rep": "MY",
+    "country_no": 129,
+    "delivery_fee": 60,
+    "phonecode": 0
+  },
+  {
+    "country_id": 192,
+    "country_code": "SG",
+    "country_name": "Singapore",
+    "country_ch_name": "Singapore",
+    "country_nicename": "Singapore",
+    "country_rep": "SG",
+    "country_no": 192,
+    "delivery_fee": 20,
+    "phonecode": 21
+  },
+  {
+    "country_id": 826,
+    "country_code": "GB",
+    "country_name": "United Kingdom",
+    "country_ch_name": "United Kingdom",
+    "country_nicename": "United Kingdom",
+    "country_rep": "GBR",
+    "country_no": 826,
+    "delivery_fee": 0,
+    "phonecode": 44
+  },
+  {
+    "country_id": 840,
+    "country_code": "US",
+    "country_name": "United States",
+    "country_ch_name": "United States",
+    "country_nicename": "United States",
+    "country_rep": "USA",
+    "country_no": 840,
+    "delivery_fee": 0,
+    "phonecode": 1
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "b_id": 1,
+    "b_uni_id": 1,
+    "b_addr": "branch address 2",
+    "b_state": 166,
+    "b_country": 13,
+    "b_status": 99,
+    "created_at": "2024-04-30 12:32:00",
+    "updated_at": "2024-04-30 12:32:00"
+  },
+  {
+    "b_id": 2,
+    "b_uni_id": 1,
+    "b_addr": "branch address 3",
+    "b_state": 10,
+    "b_country": 129,
+    "b_status": 99,
+    "created_at": "2024-04-30 12:32:00",
+    "updated_at": "2024-04-30 12:32:00"
+  }
+]

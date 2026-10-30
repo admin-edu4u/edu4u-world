@@ -1,0 +1,211 @@
+[
+  {
+    "cg_id": 1,
+    "cg_c_id": 334,
+    "cg_level": 1,
+    "cg_min": 3,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"35\",\"grades\":\"1\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 14:57:41",
+    "updated_at": "2024-07-09 23:08:13"
+  },
+  {
+    "cg_id": 2,
+    "cg_c_id": 337,
+    "cg_level": 1,
+    "cg_min": 3,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"35\",\"grades\":\"7\"},{\"subject\":\"37\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 15:01:08",
+    "updated_at": "2024-05-07 17:11:15"
+  },
+  {
+    "cg_id": 3,
+    "cg_c_id": 337,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"86\",\"grades\":\"66\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 15:13:13",
+    "updated_at": "2024-05-07 17:11:15"
+  },
+  {
+    "cg_id": 4,
+    "cg_c_id": 322,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": null,
+    "cg_status": 1,
+    "created_at": "2024-05-07 15:20:46",
+    "updated_at": "2024-05-07 15:20:46"
+  },
+  {
+    "cg_id": 5,
+    "cg_c_id": 334,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"65\",\"grades\":\"61\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:00:23",
+    "updated_at": "2024-07-09 23:08:13"
+  },
+  {
+    "cg_id": 6,
+    "cg_c_id": 334,
+    "cg_level": 2,
+    "cg_min": 3,
+    "cg_min_grades": 23,
+    "cg_grades": "[{\"subject\":\"151\",\"grades\":\"23\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:00:23",
+    "updated_at": "2024-07-09 23:08:13"
+  },
+  {
+    "cg_id": 7,
+    "cg_c_id": 335,
+    "cg_level": 1,
+    "cg_min": 3,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"35\",\"grades\":\"7\"},{\"subject\":\"37\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:07:04",
+    "updated_at": "2024-05-07 17:07:04"
+  },
+  {
+    "cg_id": 8,
+    "cg_c_id": 335,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"86\",\"grades\":\"66\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:07:04",
+    "updated_at": "2024-05-07 17:07:04"
+  },
+  {
+    "cg_id": 9,
+    "cg_c_id": 335,
+    "cg_level": 2,
+    "cg_min": 3,
+    "cg_min_grades": 23,
+    "cg_grades": "[{\"subject\":\"91\",\"grades\":\"23\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:07:04",
+    "updated_at": "2024-05-07 17:07:04"
+  },
+  {
+    "cg_id": 10,
+    "cg_c_id": 337,
+    "cg_level": 2,
+    "cg_min": 3,
+    "cg_min_grades": 23,
+    "cg_grades": "[{\"subject\":\"91\",\"grades\":\"23\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 17:11:15",
+    "updated_at": "2024-05-07 17:11:15"
+  },
+  {
+    "cg_id": 11,
+    "cg_c_id": 338,
+    "cg_level": 1,
+    "cg_min": 3,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"35\",\"grades\":\"7\"},{\"subject\":\"37\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 23:52:35",
+    "updated_at": "2024-05-07 23:52:35"
+  },
+  {
+    "cg_id": 12,
+    "cg_c_id": 338,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"86\",\"grades\":\"66\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 23:52:35",
+    "updated_at": "2024-05-07 23:52:35"
+  },
+  {
+    "cg_id": 13,
+    "cg_c_id": 338,
+    "cg_level": 2,
+    "cg_min": 3,
+    "cg_min_grades": 23,
+    "cg_grades": "[{\"subject\":\"91\",\"grades\":\"23\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-07 23:52:35",
+    "updated_at": "2024-05-07 23:52:35"
+  },
+  {
+    "cg_id": 14,
+    "cg_c_id": 301,
+    "cg_level": 1,
+    "cg_min": 1,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"59\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-08 00:00:27",
+    "updated_at": "2024-05-08 00:00:27"
+  },
+  {
+    "cg_id": 15,
+    "cg_c_id": 301,
+    "cg_level": 4,
+    "cg_min": 1,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"86\",\"grades\":\"66\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-08 00:00:27",
+    "updated_at": "2024-05-08 00:00:27"
+  },
+  {
+    "cg_id": 16,
+    "cg_c_id": 308,
+    "cg_level": 1,
+    "cg_min": 5,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"36\",\"grades\":\"7\"},{\"subject\":\"38\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-08 00:02:51",
+    "updated_at": "2024-05-08 00:02:51"
+  },
+  {
+    "cg_id": 17,
+    "cg_c_id": 308,
+    "cg_level": 2,
+    "cg_min": 5,
+    "cg_min_grades": 23,
+    "cg_grades": "[{\"subject\":\"8\",\"grades\":\"23\"},{\"subject\":\"12\",\"grades\":\"23\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-08 00:02:51",
+    "updated_at": "2024-05-08 00:02:51"
+  },
+  {
+    "cg_id": 18,
+    "cg_c_id": 308,
+    "cg_level": 4,
+    "cg_min": 3,
+    "cg_min_grades": 66,
+    "cg_grades": "[{\"subject\":\"65\",\"grades\":\"66\"},{\"subject\":\"68\",\"grades\":\"66\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-08 00:02:51",
+    "updated_at": "2024-05-08 00:02:51"
+  },
+  {
+    "cg_id": 19,
+    "cg_c_id": 173,
+    "cg_level": 1,
+    "cg_min": 3,
+    "cg_min_grades": 7,
+    "cg_grades": "[{\"subject\":\"35\",\"grades\":\"7\"},{\"subject\":\"37\",\"grades\":\"7\"}]",
+    "cg_status": 1,
+    "created_at": "2024-05-14 14:28:55",
+    "updated_at": "2024-05-20 17:41:24"
+  }
+]

@@ -1,0 +1,2452 @@
+[
+  {
+    "s_id": 1,
+    "s_level_id": 1,
+    "s_subject_cat_id": 1,
+    "s_name": "Pendidikan Islam",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-26 12:30:42"
+  },
+  {
+    "s_id": 2,
+    "s_level_id": 1,
+    "s_subject_cat_id": 1,
+    "s_name": "Pendidikan Moral",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 3,
+    "s_level_id": 1,
+    "s_subject_cat_id": 2,
+    "s_name": "Biology",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 4,
+    "s_level_id": 1,
+    "s_subject_cat_id": 3,
+    "s_name": "Geografi",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 5,
+    "s_level_id": 1,
+    "s_subject_cat_id": 4,
+    "s_name": "Ekonomi",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 6,
+    "s_level_id": 1,
+    "s_subject_cat_id": 2,
+    "s_name": "Physics",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 7,
+    "s_level_id": 1,
+    "s_subject_cat_id": 2,
+    "s_name": "Chemistry",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 8,
+    "s_level_id": 2,
+    "s_subject_cat_id": 6,
+    "s_name": "English",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 9,
+    "s_level_id": 2,
+    "s_subject_cat_id": 6,
+    "s_name": "Literature in English",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 10,
+    "s_level_id": 2,
+    "s_subject_cat_id": 7,
+    "s_name": "Malay",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 11,
+    "s_level_id": 2,
+    "s_subject_cat_id": 7,
+    "s_name": "Chinese",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 12,
+    "s_level_id": 2,
+    "s_subject_cat_id": 8,
+    "s_name": "Mathematics",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 13,
+    "s_level_id": 3,
+    "s_subject_cat_id": 3,
+    "s_name": "Pengajian Am",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 14,
+    "s_level_id": 3,
+    "s_subject_cat_id": 3,
+    "s_name": "Sejarah",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 15,
+    "s_level_id": 3,
+    "s_subject_cat_id": 3,
+    "s_name": "Ekonomi",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 16,
+    "s_level_id": 3,
+    "s_subject_cat_id": 2,
+    "s_name": "Biology",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 17,
+    "s_level_id": 4,
+    "s_subject_cat_id": 9,
+    "s_name": "Chinese Language",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 18,
+    "s_level_id": 4,
+    "s_subject_cat_id": 9,
+    "s_name": "History",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 19,
+    "s_level_id": 4,
+    "s_subject_cat_id": 9,
+    "s_name": "Biology",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 20,
+    "s_level_id": 4,
+    "s_subject_cat_id": 9,
+    "s_name": "Chemistry",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-10 15:37:00",
+    "updated_at": "2024-01-10 15:37:00"
+  },
+  {
+    "s_id": 21,
+    "s_level_id": 1,
+    "s_subject_cat_id": 2,
+    "s_name": "testspm",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-24 18:12:54",
+    "updated_at": "2024-01-24 18:12:54"
+  },
+  {
+    "s_id": 22,
+    "s_level_id": 1,
+    "s_subject_cat_id": 1,
+    "s_name": "testspm2",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-24 18:54:58",
+    "updated_at": "2024-01-24 18:54:58"
+  },
+  {
+    "s_id": 23,
+    "s_level_id": 1,
+    "s_subject_cat_id": 1,
+    "s_name": "testspm3",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-24 18:55:41",
+    "updated_at": "2024-01-24 18:55:41"
+  },
+  {
+    "s_id": 24,
+    "s_level_id": 1,
+    "s_subject_cat_id": 1,
+    "s_name": "testspm4",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-24 19:47:44",
+    "updated_at": "2024-01-24 19:47:44"
+  },
+  {
+    "s_id": 25,
+    "s_level_id": 4,
+    "s_subject_cat_id": 7,
+    "s_name": 1234,
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-01-24 19:50:07",
+    "updated_at": "2024-01-24 19:50:17"
+  },
+  {
+    "s_id": 26,
+    "s_level_id": 1,
+    "s_subject_cat_id": 6,
+    "s_name": "asdasdasdasd",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-01-24 19:54:16",
+    "updated_at": "2024-01-24 19:54:30"
+  },
+  {
+    "s_id": 27,
+    "s_level_id": 1,
+    "s_subject_cat_id": 4,
+    "s_name": "test",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-02-23 16:47:29",
+    "updated_at": "2024-02-23 16:47:29"
+  },
+  {
+    "s_id": 28,
+    "s_level_id": 1,
+    "s_subject_cat_id": 3,
+    "s_name": "spm1",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:16:33",
+    "updated_at": "2024-03-06 19:19:24"
+  },
+  {
+    "s_id": 29,
+    "s_level_id": 10,
+    "s_subject_cat_id": 4,
+    "s_name": "SACE1",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:25:22",
+    "updated_at": "2024-03-06 19:25:22"
+  },
+  {
+    "s_id": 30,
+    "s_level_id": 10,
+    "s_subject_cat_id": 2,
+    "s_name": "qwe",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:25:35",
+    "updated_at": "2024-03-06 19:25:35"
+  },
+  {
+    "s_id": 31,
+    "s_level_id": 12,
+    "s_subject_cat_id": 2,
+    "s_name": "asd",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:33:18",
+    "updated_at": "2024-03-06 19:33:18"
+  },
+  {
+    "s_id": 32,
+    "s_level_id": 1,
+    "s_subject_cat_id": 5,
+    "s_name": "asd",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:34:34",
+    "updated_at": "2024-03-06 19:34:34"
+  },
+  {
+    "s_id": 33,
+    "s_level_id": 13,
+    "s_subject_cat_id": 6,
+    "s_name": "testsubject",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-03-06 19:44:16",
+    "updated_at": "2024-03-06 19:44:16"
+  },
+  {
+    "s_id": 34,
+    "s_level_id": 11,
+    "s_subject_cat_id": 3,
+    "s_name": "K12 test",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-03-07 11:48:48",
+    "updated_at": "2024-03-07 11:48:48"
+  },
+  {
+    "s_id": 35,
+    "s_level_id": 1,
+    "s_subject_cat_id": 29,
+    "s_name": "Bahasa Melayu",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:01:51",
+    "updated_at": "2024-03-29 17:01:51"
+  },
+  {
+    "s_id": 36,
+    "s_level_id": 1,
+    "s_subject_cat_id": 29,
+    "s_name": "Bahasa Inggeris",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:11:07",
+    "updated_at": "2024-03-29 17:11:07"
+  },
+  {
+    "s_id": 37,
+    "s_level_id": 1,
+    "s_subject_cat_id": 29,
+    "s_name": "Sejarah",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:11:18",
+    "updated_at": "2024-03-29 17:11:18"
+  },
+  {
+    "s_id": 38,
+    "s_level_id": 1,
+    "s_subject_cat_id": 29,
+    "s_name": "Matematik",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:11:26",
+    "updated_at": "2024-03-29 17:11:26"
+  },
+  {
+    "s_id": 39,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Sains",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:12:13",
+    "updated_at": "2024-03-29 17:12:13"
+  },
+  {
+    "s_id": 40,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Pendidikan Islam",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:12:22",
+    "updated_at": "2024-03-29 17:12:22"
+  },
+  {
+    "s_id": 41,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Pendidikan Moral",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:12:35",
+    "updated_at": "2024-03-29 17:12:35"
+  },
+  {
+    "s_id": 42,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Bahasa Cina",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:12:55",
+    "updated_at": "2024-03-29 17:12:55"
+  },
+  {
+    "s_id": 43,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Bahasa Arab",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:13:02",
+    "updated_at": "2024-03-29 17:13:02"
+  },
+  {
+    "s_id": 44,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Bahasa Tamil",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:13:24",
+    "updated_at": "2024-03-29 17:13:24"
+  },
+  {
+    "s_id": 45,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Geografi",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:13:41",
+    "updated_at": "2024-03-29 17:13:41"
+  },
+  {
+    "s_id": 46,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Pendidikan Seni Visual",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:13:47",
+    "updated_at": "2024-03-29 17:13:47"
+  },
+  {
+    "s_id": 47,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Pendidikan Muzik",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:13:53",
+    "updated_at": "2024-03-29 17:13:53"
+  },
+  {
+    "s_id": 48,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Prinsip Perakaunan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:00",
+    "updated_at": "2024-03-29 17:14:00"
+  },
+  {
+    "s_id": 49,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Perniagaan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:16",
+    "updated_at": "2024-03-29 17:14:16"
+  },
+  {
+    "s_id": 50,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Ekonomi",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:31",
+    "updated_at": "2024-03-29 17:14:31"
+  },
+  {
+    "s_id": 51,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Tasawwur Islam",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:41",
+    "updated_at": "2024-03-29 17:14:41"
+  },
+  {
+    "s_id": 52,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Matematik Tambahan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:51",
+    "updated_at": "2024-03-29 17:14:51"
+  },
+  {
+    "s_id": 53,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Fizik",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:14:57",
+    "updated_at": "2024-03-29 17:14:57"
+  },
+  {
+    "s_id": 54,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Kimia",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:15:03",
+    "updated_at": "2024-03-29 17:15:03"
+  },
+  {
+    "s_id": 55,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Biologi",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:15:15",
+    "updated_at": "2024-03-29 17:15:15"
+  },
+  {
+    "s_id": 56,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Lukisan Kejuruteraan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:15:37",
+    "updated_at": "2024-03-29 17:15:37"
+  },
+  {
+    "s_id": 57,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Reka Cipta",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:15:55",
+    "updated_at": "2024-03-29 17:15:55"
+  },
+  {
+    "s_id": 58,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Sains Komputer",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:16:07",
+    "updated_at": "2024-03-29 17:16:07"
+  },
+  {
+    "s_id": 59,
+    "s_level_id": 1,
+    "s_subject_cat_id": 30,
+    "s_name": "Other",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-03-29 17:16:16",
+    "updated_at": "2024-03-29 17:16:16"
+  },
+  {
+    "s_id": 60,
+    "s_level_id": 3,
+    "s_subject_cat_id": 29,
+    "s_name": "Perniagaan",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-04-17 16:54:08",
+    "updated_at": "2024-04-17 16:54:08"
+  },
+  {
+    "s_id": 61,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "UEC test",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-04-17 17:40:44",
+    "updated_at": "2024-04-17 17:40:44"
+  },
+  {
+    "s_id": 62,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "UEC subject 2",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-04-17 17:41:18",
+    "updated_at": "2024-04-17 17:41:18"
+  },
+  {
+    "s_id": 63,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "中文1级",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-04-17 17:50:20",
+    "updated_at": "2024-04-17 17:50:20"
+  },
+  {
+    "s_id": 64,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "地理知识",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-04-17 17:57:53",
+    "updated_at": "2024-04-17 17:57:53"
+  },
+  {
+    "s_id": 65,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": "华文",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:29:47",
+    "updated_at": "2024-04-17 18:29:47"
+  },
+  {
+    "s_id": 66,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": "国语",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:30:24",
+    "updated_at": "2024-04-17 18:30:24"
+  },
+  {
+    "s_id": 67,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": "英文",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:30:30",
+    "updated_at": "2024-04-17 18:30:30"
+  },
+  {
+    "s_id": 68,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": "数学",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:30:36",
+    "updated_at": "2024-04-17 18:30:36"
+  },
+  {
+    "s_id": 69,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "高级数学",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:30:51",
+    "updated_at": "2024-04-17 18:31:03"
+  },
+  {
+    "s_id": 70,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "高级数学（I）",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:31:12",
+    "updated_at": "2024-04-17 18:31:12"
+  },
+  {
+    "s_id": 71,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "高级数学 （II）",
+    "s_is_preselect": 1,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:31:20",
+    "updated_at": "2024-04-17 18:31:20"
+  },
+  {
+    "s_id": 72,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "历史",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:31:29",
+    "updated_at": "2024-04-17 18:31:29"
+  },
+  {
+    "s_id": 73,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "生物",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:32:58",
+    "updated_at": "2024-04-17 18:32:58"
+  },
+  {
+    "s_id": 74,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "化学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:33:04",
+    "updated_at": "2024-04-17 18:33:04"
+  },
+  {
+    "s_id": 75,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "物理",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:33:11",
+    "updated_at": "2024-04-17 18:33:11"
+  },
+  {
+    "s_id": 76,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "商业学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:33:18",
+    "updated_at": "2024-04-17 18:33:18"
+  },
+  {
+    "s_id": 77,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "簿记与会计",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:33:30",
+    "updated_at": "2024-04-17 18:33:30"
+  },
+  {
+    "s_id": 78,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "会计学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:33:43",
+    "updated_at": "2024-04-17 18:33:43"
+  },
+  {
+    "s_id": 79,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "经济学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:34:24",
+    "updated_at": "2024-04-17 18:34:24"
+  },
+  {
+    "s_id": 80,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "电脑与资讯工艺",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:34:32",
+    "updated_at": "2024-04-17 18:34:32"
+  },
+  {
+    "s_id": 81,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "美术",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:34:39",
+    "updated_at": "2024-04-17 18:34:39"
+  },
+  {
+    "s_id": 82,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "电学原理",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:34:45",
+    "updated_at": "2024-04-17 18:34:45"
+  },
+  {
+    "s_id": 83,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "电子学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:34:51",
+    "updated_at": "2024-04-17 18:34:51"
+  },
+  {
+    "s_id": 84,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "数位逻辑",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:35:00",
+    "updated_at": "2024-04-17 18:35:00"
+  },
+  {
+    "s_id": 85,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "电机学",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:35:06",
+    "updated_at": "2024-04-17 18:35:06"
+  },
+  {
+    "s_id": 86,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "其他",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-04-17 18:35:25",
+    "updated_at": "2024-05-07 16:50:16"
+  },
+  {
+    "s_id": 87,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": "asdasdasdl;'l;'",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-04-17 18:38:51",
+    "updated_at": "2024-04-17 18:38:51"
+  },
+  {
+    "s_id": 88,
+    "s_level_id": 4,
+    "s_subject_cat_id": 29,
+    "s_name": 123,
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-04-17 18:39:05",
+    "updated_at": "2024-04-17 18:39:15"
+  },
+  {
+    "s_id": 89,
+    "s_level_id": 4,
+    "s_subject_cat_id": 30,
+    "s_name": "深深的",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-04-17 18:42:39",
+    "updated_at": "2024-04-17 18:42:39"
+  },
+  {
+    "s_id": 90,
+    "s_level_id": 12,
+    "s_subject_cat_id": 29,
+    "s_name": "other subject",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-04-22 18:33:19",
+    "updated_at": "2024-04-22 18:33:19"
+  },
+  {
+    "s_id": 91,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Any Subject",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-07 16:46:19",
+    "updated_at": "2024-05-07 16:46:34"
+  },
+  {
+    "s_id": 92,
+    "s_level_id": 15,
+    "s_subject_cat_id": 30,
+    "s_name": "Any Subject",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-07 16:47:10",
+    "updated_at": "2024-05-07 16:47:10"
+  },
+  {
+    "s_id": 93,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Chemistry",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:07:48",
+    "updated_at": "2024-05-08 00:07:48"
+  },
+  {
+    "s_id": 94,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Physics",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:07:58",
+    "updated_at": "2024-05-08 00:07:58"
+  },
+  {
+    "s_id": 95,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Biology",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:08:10",
+    "updated_at": "2024-05-08 00:08:10"
+  },
+  {
+    "s_id": 96,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Economics",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:08:18",
+    "updated_at": "2024-05-08 00:08:18"
+  },
+  {
+    "s_id": 97,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Psychology",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:08:46",
+    "updated_at": "2024-05-08 00:08:46"
+  },
+  {
+    "s_id": 98,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Computer Science",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:08:54",
+    "updated_at": "2024-05-08 00:08:54"
+  },
+  {
+    "s_id": 99,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Law",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:01",
+    "updated_at": "2024-05-08 00:09:01"
+  },
+  {
+    "s_id": 100,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Business",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:12",
+    "updated_at": "2024-05-08 00:09:12"
+  },
+  {
+    "s_id": 101,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Accounting",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:21",
+    "updated_at": "2024-05-08 00:09:21"
+  },
+  {
+    "s_id": 102,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "English Literature",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:33",
+    "updated_at": "2024-05-08 00:09:33"
+  },
+  {
+    "s_id": 103,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "History",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:41",
+    "updated_at": "2024-05-08 00:09:41"
+  },
+  {
+    "s_id": 104,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Art",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:48",
+    "updated_at": "2024-05-08 00:09:48"
+  },
+  {
+    "s_id": 105,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Engineering",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:09:57",
+    "updated_at": "2024-05-08 00:09:57"
+  },
+  {
+    "s_id": 106,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Geography",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:06",
+    "updated_at": "2024-05-08 00:10:06"
+  },
+  {
+    "s_id": 107,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Actuarial Science",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:17",
+    "updated_at": "2024-05-08 00:10:17"
+  },
+  {
+    "s_id": 108,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Business Studies",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:28",
+    "updated_at": "2024-05-08 00:10:28"
+  },
+  {
+    "s_id": 109,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Languages",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:36",
+    "updated_at": "2024-05-08 00:10:36"
+  },
+  {
+    "s_id": 110,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Music",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:44",
+    "updated_at": "2024-05-08 00:10:44"
+  },
+  {
+    "s_id": 111,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Applied Sciences",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:10:54",
+    "updated_at": "2024-05-08 00:10:54"
+  },
+  {
+    "s_id": 112,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:11:03",
+    "updated_at": "2024-05-08 00:11:03"
+  },
+  {
+    "s_id": 113,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Further Mathematics",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:11:11",
+    "updated_at": "2024-05-08 00:11:11"
+  },
+  {
+    "s_id": 114,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "Dentistry",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:11:22",
+    "updated_at": "2024-05-08 00:11:22"
+  },
+  {
+    "s_id": 115,
+    "s_level_id": 7,
+    "s_subject_cat_id": 30,
+    "s_name": "English",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-08 00:11:28",
+    "updated_at": "2024-05-08 00:11:28"
+  },
+  {
+    "s_id": 116,
+    "s_level_id": 3,
+    "s_subject_cat_id": 29,
+    "s_name": "English",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-05-14 19:41:24",
+    "updated_at": "2024-05-14 19:41:24"
+  },
+  {
+    "s_id": 117,
+    "s_level_id": 3,
+    "s_subject_cat_id": 29,
+    "s_name": "Mathematics",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-05-14 19:41:34",
+    "updated_at": "2024-05-14 19:41:34"
+  },
+  {
+    "s_id": 118,
+    "s_level_id": 3,
+    "s_subject_cat_id": 29,
+    "s_name": "Bahasa Melayu",
+    "s_is_preselect": 1,
+    "s_status": 99,
+    "created_at": "2024-05-16 13:10:02",
+    "updated_at": "2024-05-16 13:10:02"
+  },
+  {
+    "s_id": 119,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "Physics",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-16 14:39:57",
+    "updated_at": "2024-05-16 14:39:57"
+  },
+  {
+    "s_id": 120,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Accounting - 0452",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:50:40",
+    "updated_at": "2024-05-16 14:51:04"
+  },
+  {
+    "s_id": 121,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Accounting (9-1) - 0985",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:50:54",
+    "updated_at": "2024-05-16 14:50:54"
+  },
+  {
+    "s_id": 122,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Afrikaans - Second Language - 0548",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:51:14",
+    "updated_at": "2024-05-16 14:51:14"
+  },
+  {
+    "s_id": 123,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Agriculture - 0600",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:51:23",
+    "updated_at": "2024-05-16 14:51:23"
+  },
+  {
+    "s_id": 124,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Arabic - First Language - 0508",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:51:36",
+    "updated_at": "2024-05-16 14:51:36"
+  },
+  {
+    "s_id": 125,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Arabic - First Language (9-1) - 7184",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:51:45",
+    "updated_at": "2024-05-16 14:51:45"
+  },
+  {
+    "s_id": 126,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Arabic - Foreign Language - 0544",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:03",
+    "updated_at": "2024-05-16 14:52:03"
+  },
+  {
+    "s_id": 127,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Art & Design - 0400",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:12",
+    "updated_at": "2024-05-16 14:52:12"
+  },
+  {
+    "s_id": 128,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Art & Design (9-1) 0989",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:21",
+    "updated_at": "2024-05-16 14:52:21"
+  },
+  {
+    "s_id": 129,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Bahasa Indonesia - 0538",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:32",
+    "updated_at": "2024-05-16 14:52:32"
+  },
+  {
+    "s_id": 130,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Biology - 0610",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:40",
+    "updated_at": "2024-05-16 14:52:40"
+  },
+  {
+    "s_id": 131,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Biology (9-1) - 0970",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:52:49",
+    "updated_at": "2024-05-16 14:52:49"
+  },
+  {
+    "s_id": 132,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Business Studies - 0450",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:53:03",
+    "updated_at": "2024-05-16 14:53:03"
+  },
+  {
+    "s_id": 133,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Business Studies (9-1) - 0986",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:53:11",
+    "updated_at": "2024-05-16 14:53:11"
+  },
+  {
+    "s_id": 134,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Chemistry - 0620",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:53:22",
+    "updated_at": "2024-05-16 14:53:22"
+  },
+  {
+    "s_id": 135,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Chemistry (9-1) - 0971",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:00",
+    "updated_at": "2024-05-16 14:54:00"
+  },
+  {
+    "s_id": 136,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Chinese - First Language - 0509",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:07",
+    "updated_at": "2024-05-16 14:54:07"
+  },
+  {
+    "s_id": 137,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Chinese - Second Language - 0523",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:15",
+    "updated_at": "2024-05-16 14:54:15"
+  },
+  {
+    "s_id": 138,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Chinese (Mandarin) - Foreign Language (0547)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:22",
+    "updated_at": "2024-05-16 14:54:22"
+  },
+  {
+    "s_id": 139,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Computer Science - 0478",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:30",
+    "updated_at": "2024-05-16 14:54:30"
+  },
+  {
+    "s_id": 140,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Computer Science (9-1) - 0984",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:37",
+    "updated_at": "2024-05-16 14:54:37"
+  },
+  {
+    "s_id": 141,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Design & Technology - 0445",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:45",
+    "updated_at": "2024-05-16 14:54:45"
+  },
+  {
+    "s_id": 142,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Design & Technology (9-1) - 0979",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:54:53",
+    "updated_at": "2024-05-16 14:54:53"
+  },
+  {
+    "s_id": 143,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Drama - 0411",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:55:00",
+    "updated_at": "2024-05-16 14:55:00"
+  },
+  {
+    "s_id": 144,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Drama (9-1) - 0994",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:55:08",
+    "updated_at": "2024-05-16 14:55:08"
+  },
+  {
+    "s_id": 145,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Economics - 0455",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:55:16",
+    "updated_at": "2024-05-16 14:55:16"
+  },
+  {
+    "s_id": 146,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Economics (9-1) - 0987",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:55:24",
+    "updated_at": "2024-05-16 14:55:24"
+  },
+  {
+    "s_id": 147,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English - First Language - 0500",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:55:31",
+    "updated_at": "2024-05-16 14:55:31"
+  },
+  {
+    "s_id": 148,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English - First Language (9-1) - 0990",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:56:41",
+    "updated_at": "2024-05-16 14:56:41"
+  },
+  {
+    "s_id": 149,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English - First Language (US) - 0524",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:56:49",
+    "updated_at": "2024-05-16 14:56:49"
+  },
+  {
+    "s_id": 150,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English – Literature (US) – 0427",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:56:56",
+    "updated_at": "2024-05-16 14:56:56"
+  },
+  {
+    "s_id": 151,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English – Literature in English – 0475",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:07",
+    "updated_at": "2024-05-16 14:57:07"
+  },
+  {
+    "s_id": 152,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English – Literature in English (9-1) – 0992",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:15",
+    "updated_at": "2024-05-16 14:57:15"
+  },
+  {
+    "s_id": 153,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English (as an Additional Language) - 0472",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:22",
+    "updated_at": "2024-05-16 14:57:22"
+  },
+  {
+    "s_id": 154,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English (as an Additional Language) (9-1) - 0772",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:32",
+    "updated_at": "2024-05-16 14:57:32"
+  },
+  {
+    "s_id": 155,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English (Core) as a Second Language (Egypt) - 0465",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:41",
+    "updated_at": "2024-05-16 14:57:41"
+  },
+  {
+    "s_id": 156,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English as a Second Language (Count-in speaking) (0511)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:57:53",
+    "updated_at": "2024-05-16 14:57:53"
+  },
+  {
+    "s_id": 157,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English as a Second Language (Count-in Speaking) (9-1) (0991)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:03",
+    "updated_at": "2024-05-16 14:58:03"
+  },
+  {
+    "s_id": 158,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English as a Second Language (Speaking endorsement) - 0510",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:11",
+    "updated_at": "2024-05-16 14:58:11"
+  },
+  {
+    "s_id": 159,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "English as a Second Language (Speaking Endorsement) (9-1) - 0993",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:18",
+    "updated_at": "2024-05-16 14:58:18"
+  },
+  {
+    "s_id": 160,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Enterprise - 0454",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:26",
+    "updated_at": "2024-05-16 14:58:26"
+  },
+  {
+    "s_id": 161,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Environmental Management - 0680",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:34",
+    "updated_at": "2024-05-16 14:58:34"
+  },
+  {
+    "s_id": 162,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Food & Nutrition - 0648",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:43",
+    "updated_at": "2024-05-16 14:58:43"
+  },
+  {
+    "s_id": 163,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "French - First Language - 0501",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:58:53",
+    "updated_at": "2024-05-16 14:58:53"
+  },
+  {
+    "s_id": 164,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "French - Foreign Language - 0520",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:00",
+    "updated_at": "2024-05-16 14:59:00"
+  },
+  {
+    "s_id": 165,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "French (9-1) - 7156",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:13",
+    "updated_at": "2024-05-16 14:59:13"
+  },
+  {
+    "s_id": 166,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Geography - 0460",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:22",
+    "updated_at": "2024-05-16 14:59:22"
+  },
+  {
+    "s_id": 167,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Geography (9-1) - 0976",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:29",
+    "updated_at": "2024-05-16 14:59:29"
+  },
+  {
+    "s_id": 168,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "German - First Language - 0505",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:38",
+    "updated_at": "2024-05-16 14:59:38"
+  },
+  {
+    "s_id": 169,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "German - Foreign Language - 0525",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 14:59:49",
+    "updated_at": "2024-05-16 15:00:19"
+  },
+  {
+    "s_id": 170,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "German (9-1) - 7159",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:00:30",
+    "updated_at": "2024-05-16 15:00:30"
+  },
+  {
+    "s_id": 171,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Global Perspectives - 0457",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:00:38",
+    "updated_at": "2024-05-16 15:00:38"
+  },
+  {
+    "s_id": 172,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Hindi as a Second Language - 0549",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:00:51",
+    "updated_at": "2024-05-16 15:00:51"
+  },
+  {
+    "s_id": 173,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "History - 0470",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:00:59",
+    "updated_at": "2024-05-16 15:00:59"
+  },
+  {
+    "s_id": 174,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "History - American (US) - 0409",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:08",
+    "updated_at": "2024-05-16 15:01:08"
+  },
+  {
+    "s_id": 175,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "History (9-1) - 0977",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:15",
+    "updated_at": "2024-05-16 15:01:15"
+  },
+  {
+    "s_id": 176,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Information and Communication Technology - 0417",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:23",
+    "updated_at": "2024-05-16 15:01:23"
+  },
+  {
+    "s_id": 177,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Information and Communication Technology (9-1) - 0983",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:32",
+    "updated_at": "2024-05-16 15:01:32"
+  },
+  {
+    "s_id": 178,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "IsiZulu as a Second Language - 0531",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:40",
+    "updated_at": "2024-05-16 15:01:40"
+  },
+  {
+    "s_id": 179,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Islamiyat - 0493",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:01:57",
+    "updated_at": "2024-05-16 15:01:57"
+  },
+  {
+    "s_id": 180,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Italian - Foreign Language - 0535",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:05",
+    "updated_at": "2024-05-16 15:02:05"
+  },
+  {
+    "s_id": 181,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Italian (9-1) - 7164",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:12",
+    "updated_at": "2024-05-16 15:02:12"
+  },
+  {
+    "s_id": 182,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Latin - 0480",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:26",
+    "updated_at": "2024-05-16 15:02:26"
+  },
+  {
+    "s_id": 183,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Malay - First Language - 0696",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:34",
+    "updated_at": "2024-05-16 15:02:34"
+  },
+  {
+    "s_id": 184,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Malay - Foreign Language - 0546",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:42",
+    "updated_at": "2024-05-16 15:02:42"
+  },
+  {
+    "s_id": 185,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Marine Science - 0697",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:51",
+    "updated_at": "2024-05-16 15:02:51"
+  },
+  {
+    "s_id": 186,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics - 0580",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:02:59",
+    "updated_at": "2024-05-16 15:02:59"
+  },
+  {
+    "s_id": 187,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics - Additional - 0606",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:07",
+    "updated_at": "2024-05-16 15:03:07"
+  },
+  {
+    "s_id": 188,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics - International - 0607",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:16",
+    "updated_at": "2024-05-16 15:03:16"
+  },
+  {
+    "s_id": 189,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics (9-1) - 0980",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:25",
+    "updated_at": "2024-05-16 15:03:25"
+  },
+  {
+    "s_id": 190,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Mathematics (US) - 0444",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:32",
+    "updated_at": "2024-05-16 15:03:32"
+  },
+  {
+    "s_id": 191,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Music - 0410",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:42",
+    "updated_at": "2024-05-16 15:03:42"
+  },
+  {
+    "s_id": 192,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Music (9-1) - 0978",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:51",
+    "updated_at": "2024-05-16 15:03:51"
+  },
+  {
+    "s_id": 193,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Pakistan Studies - 0448",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:03:59",
+    "updated_at": "2024-05-16 15:03:59"
+  },
+  {
+    "s_id": 194,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Physical Education - 0413",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:07",
+    "updated_at": "2024-05-16 15:04:07"
+  },
+  {
+    "s_id": 195,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Physical Education (9-1) - 0995",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:18",
+    "updated_at": "2024-05-16 15:04:18"
+  },
+  {
+    "s_id": 196,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Physical Science - 0652",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:26",
+    "updated_at": "2024-05-16 15:04:26"
+  },
+  {
+    "s_id": 197,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Physics - 0625",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:33",
+    "updated_at": "2024-05-16 15:04:33"
+  },
+  {
+    "s_id": 198,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Physics - 0625",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:44",
+    "updated_at": "2024-05-16 15:04:44"
+  },
+  {
+    "s_id": 199,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Portuguese - First Language - 0504",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:04:56",
+    "updated_at": "2024-05-16 15:04:56"
+  },
+  {
+    "s_id": 200,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Religious Studies - 0490",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:05:05",
+    "updated_at": "2024-05-16 15:05:05"
+  },
+  {
+    "s_id": 201,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Sanskrit - 0499",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:05:24",
+    "updated_at": "2024-05-16 15:05:24"
+  },
+  {
+    "s_id": 202,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Science - Combined - 0653",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:05:35",
+    "updated_at": "2024-05-16 15:05:35"
+  },
+  {
+    "s_id": 203,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Sciences - Co-ordinated (9-1) - 0973",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:05:44",
+    "updated_at": "2024-05-16 15:05:44"
+  },
+  {
+    "s_id": 204,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Sciences - Co-ordinated (Double) - 0654",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:05:53",
+    "updated_at": "2024-05-16 15:05:53"
+  },
+  {
+    "s_id": 205,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Setswana - First Language - 0698",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:01",
+    "updated_at": "2024-05-16 15:06:01"
+  },
+  {
+    "s_id": 206,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Sociology - 0495",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:10",
+    "updated_at": "2024-05-16 15:06:10"
+  },
+  {
+    "s_id": 207,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Spanish - First Language - 0502",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:19",
+    "updated_at": "2024-05-16 15:06:19"
+  },
+  {
+    "s_id": 208,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Spanish - Foreign Language - 0530",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:26",
+    "updated_at": "2024-05-16 15:06:26"
+  },
+  {
+    "s_id": 209,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Spanish - Literature - 0488",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:34",
+    "updated_at": "2024-05-16 15:06:34"
+  },
+  {
+    "s_id": 210,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Spanish - Literature in Spanish - 0474",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:43",
+    "updated_at": "2024-05-16 15:06:43"
+  },
+  {
+    "s_id": 211,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Spanish (9-1) - 7160",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:51",
+    "updated_at": "2024-05-16 15:06:51"
+  },
+  {
+    "s_id": 212,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Swahili - 0262",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:06:59",
+    "updated_at": "2024-05-16 15:06:59"
+  },
+  {
+    "s_id": 213,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Thai - First Language - 0518",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:07",
+    "updated_at": "2024-05-16 15:07:07"
+  },
+  {
+    "s_id": 214,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Travel & Tourism - 0471",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:15",
+    "updated_at": "2024-05-16 15:07:15"
+  },
+  {
+    "s_id": 215,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Turkish - First Language - 0513",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:23",
+    "updated_at": "2024-05-16 15:07:23"
+  },
+  {
+    "s_id": 216,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Urdu as a Second Language - 0539",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:32",
+    "updated_at": "2024-05-16 15:07:32"
+  },
+  {
+    "s_id": 217,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "Vietnamese - First Language - 0695",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:40",
+    "updated_at": "2024-05-16 15:07:40"
+  },
+  {
+    "s_id": 218,
+    "s_level_id": 2,
+    "s_subject_cat_id": 30,
+    "s_name": "World Literature - 0408",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:07:48",
+    "updated_at": "2024-05-16 15:07:48"
+  },
+  {
+    "s_id": 219,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "900 Pengajian Am",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:16:31",
+    "updated_at": "2024-05-16 15:16:31"
+  },
+  {
+    "s_id": 220,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "910 Bahasa Melayu",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:16:39",
+    "updated_at": "2024-05-16 15:16:39"
+  },
+  {
+    "s_id": 221,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "911 Bahasa Cina",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:16:49",
+    "updated_at": "2024-05-16 15:16:49"
+  },
+  {
+    "s_id": 222,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "912 Bahasa Tamil",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:16:57",
+    "updated_at": "2024-05-16 15:16:57"
+  },
+  {
+    "s_id": 223,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "913 Bahasa Arab",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:06",
+    "updated_at": "2024-05-16 15:17:06"
+  },
+  {
+    "s_id": 224,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "920 Literature In English",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:15",
+    "updated_at": "2024-05-16 15:17:15"
+  },
+  {
+    "s_id": 225,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "922 Kesusasteraan Melayu Komunikatif",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:23",
+    "updated_at": "2024-05-16 15:17:23"
+  },
+  {
+    "s_id": 226,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "930 Syariah",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:30",
+    "updated_at": "2024-05-16 15:17:30"
+  },
+  {
+    "s_id": 227,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "931 Usuluddin",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:39",
+    "updated_at": "2024-05-16 15:17:39"
+  },
+  {
+    "s_id": 228,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "932 Tahfiz Al-Quran",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:48",
+    "updated_at": "2024-05-16 15:17:48"
+  },
+  {
+    "s_id": 229,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "940 Sejarah",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:17:58",
+    "updated_at": "2024-05-16 15:17:58"
+  },
+  {
+    "s_id": 230,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "942 Geografi",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:06",
+    "updated_at": "2024-05-16 15:18:06"
+  },
+  {
+    "s_id": 231,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "944 Ekonomi",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:14",
+    "updated_at": "2024-05-16 15:18:14"
+  },
+  {
+    "s_id": 232,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "946 Pengajian Perniagaan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:22",
+    "updated_at": "2024-05-16 15:18:22"
+  },
+  {
+    "s_id": 233,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "948 Perakaunan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:30",
+    "updated_at": "2024-05-16 15:18:30"
+  },
+  {
+    "s_id": 234,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "950 Mathematics (M)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:37",
+    "updated_at": "2024-05-16 15:18:37"
+  },
+  {
+    "s_id": 235,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "954 Mathematics (T)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:45",
+    "updated_at": "2024-05-16 15:18:45"
+  },
+  {
+    "s_id": 236,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "958 Information And Communications Technology (ICT)",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:18:53",
+    "updated_at": "2024-05-16 15:18:53"
+  },
+  {
+    "s_id": 237,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "960 Physics",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:19:00",
+    "updated_at": "2024-05-16 15:19:00"
+  },
+  {
+    "s_id": 238,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "962 Chemistry",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:19:07",
+    "updated_at": "2024-05-16 15:19:07"
+  },
+  {
+    "s_id": 239,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "964 Biology",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:19:18",
+    "updated_at": "2024-05-16 15:19:18"
+  },
+  {
+    "s_id": 240,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "966 Sains Sukan",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:19:25",
+    "updated_at": "2024-05-16 15:19:25"
+  },
+  {
+    "s_id": 241,
+    "s_level_id": 3,
+    "s_subject_cat_id": 30,
+    "s_name": "970 Seni Visual",
+    "s_is_preselect": 0,
+    "s_status": 1,
+    "created_at": "2024-05-16 15:19:33",
+    "updated_at": "2024-05-16 15:19:33"
+  },
+  {
+    "s_id": 242,
+    "s_level_id": 5,
+    "s_subject_cat_id": 30,
+    "s_name": "Foundation in art",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-16 15:20:12",
+    "updated_at": "2024-05-16 15:20:12"
+  },
+  {
+    "s_id": 243,
+    "s_level_id": 8,
+    "s_subject_cat_id": 30,
+    "s_name": "Other",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-16 15:20:45",
+    "updated_at": "2024-05-16 15:20:45"
+  },
+  {
+    "s_id": 244,
+    "s_level_id": 9,
+    "s_subject_cat_id": 30,
+    "s_name": "Other",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-16 15:20:56",
+    "updated_at": "2024-05-16 15:20:56"
+  },
+  {
+    "s_id": 245,
+    "s_level_id": 10,
+    "s_subject_cat_id": 30,
+    "s_name": "Other",
+    "s_is_preselect": 0,
+    "s_status": 99,
+    "created_at": "2024-05-16 15:21:10",
+    "updated_at": "2024-05-16 15:21:10"
+  }
+]

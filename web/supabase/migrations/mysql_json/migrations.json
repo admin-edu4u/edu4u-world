@@ -1,0 +1,162 @@
+[
+  {
+    "id": 6,
+    "migration": "2020_04_20_080703_create_defaults_table",
+    "batch": 1
+  },
+  {
+    "id": 7,
+    "migration": "2020_06_20_132232_create_bookings_table",
+    "batch": 1
+  },
+  {
+    "id": 8,
+    "migration": "2020_06_21_154153_create_brands_table",
+    "batch": 1
+  },
+  {
+    "id": 9,
+    "migration": "2020_06_21_154256_create_cars_table",
+    "batch": 1
+  },
+  {
+    "id": 10,
+    "migration": "2020_06_25_205940_create_groups_table",
+    "batch": 2
+  },
+  {
+    "id": 11,
+    "migration": "2020_07_08_215918_create_save_cars_table",
+    "batch": 3
+  },
+  {
+    "id": 12,
+    "migration": "2014_10_12_000000_create_users_table",
+    "batch": 4
+  },
+  {
+    "id": 13,
+    "migration": "2017_04_03_022550_create_banks_table",
+    "batch": 4
+  },
+  {
+    "id": 14,
+    "migration": "2017_07_09_013610_create_full_countries_table",
+    "batch": 4
+  },
+  {
+    "id": 15,
+    "migration": "2018_04_28_152312_create_confs_table",
+    "batch": 4
+  },
+  {
+    "id": 16,
+    "migration": "2018_06_01_144038_create_categories_table",
+    "batch": 4
+  },
+  {
+    "id": 17,
+    "migration": "2018_06_01_161003_create_products_table",
+    "batch": 4
+  },
+  {
+    "id": 18,
+    "migration": "2018_06_21_110853_create_wallets_table",
+    "batch": 4
+  },
+  {
+    "id": 19,
+    "migration": "2018_07_04_100816_create_comms_table",
+    "batch": 4
+  },
+  {
+    "id": 20,
+    "migration": "2018_07_04_140542_create_pkg_purchases_table",
+    "batch": 4
+  },
+  {
+    "id": 21,
+    "migration": "2018_07_09_122656_create_withdrawals_table",
+    "batch": 4
+  },
+  {
+    "id": 22,
+    "migration": "2018_07_25_084116_create_transfers_table",
+    "batch": 4
+  },
+  {
+    "id": 23,
+    "migration": "2018_09_29_201110_create_matrix_trees_table",
+    "batch": 4
+  },
+  {
+    "id": 24,
+    "migration": "2019_03_30_122911_create_wallet_logs_table",
+    "batch": 4
+  },
+  {
+    "id": 25,
+    "migration": "2019_05_23_203654_create_states_table",
+    "batch": 4
+  },
+  {
+    "id": 26,
+    "migration": "2019_07_23_085959_create_banners_table",
+    "batch": 4
+  },
+  {
+    "id": 27,
+    "migration": "2019_09_11_105622_create_uprank_logs_table",
+    "batch": 4
+  },
+  {
+    "id": 28,
+    "migration": "2019_09_30_105653_create_packages_table",
+    "batch": 4
+  },
+  {
+    "id": 29,
+    "migration": "2019_10_01_103311_create_payments_table",
+    "batch": 4
+  },
+  {
+    "id": 30,
+    "migration": "2019_10_13_105324_create_announcements_table",
+    "batch": 4
+  },
+  {
+    "id": 31,
+    "migration": "2020_03_13_101252_create_pkg_items_table",
+    "batch": 4
+  },
+  {
+    "id": 32,
+    "migration": "2020_03_13_151949_create_stock_logs_table",
+    "batch": 4
+  },
+  {
+    "id": 33,
+    "migration": "2020_03_14_110104_create_pkg_purchase_items_table",
+    "batch": 4
+  },
+  {
+    "id": 34,
+    "migration": "2020_03_31_085019_create_testimonials_table",
+    "batch": 4
+  },
+  {
+    "id": 35,
+    "migration": "2020_06_22_134705_create_newsletters_table",
+    "batch": 4
+  },
+  {
+    "id": 36,
+    "migration": "2020_08_27_191850_create_topups_table",
+    "batch": 4
+  },
+  {
+    "id": 37,
+    "migration": "2020_11_27_111432_create_uprank_pvs_table",
+    "batch": 5
+  }
+]
