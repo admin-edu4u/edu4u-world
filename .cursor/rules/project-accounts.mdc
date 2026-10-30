@@ -9,18 +9,21 @@ This workspace is **Edu4u**. Do not use other projects' or personal accounts for
 
 ## GitHub
 
-- **Canonical repo**: `admin-edu4u/edu4u.world` (org/user **admin-edu4u** only).
-- Do **not** use `Benjamin0828` or other GitHub identities for pushes, PRs, or repo management in this project.
-- If CLI auth fails with 403, fix access on **admin-edu4u** (deploy key, org settings, or browser as @admin-edu4u). Do not add personal accounts as a default workaround.
+- **Only identity**: **admin-edu4u** (`admin-edu4u/edu4u.world`).
+- **Never use `Benjamin0828`** (or any other GitHub user) for this project: no HTTPS push as Benjamin, no `gh` commands assuming Benjamin, no adding Benjamin as collaborator as a workaround, no PRs from Benjamin forks.
+- **Git push**: use SSH to `git@github.com:admin-edu4u/edu4u.world.git` with the project deploy key in `.credentials/edu4u_admin_deploy_key` (`IdentitiesOnly=yes`). Do not rely on `origin` HTTPS (it may authenticate as the wrong user).
+- **Browser / sudo**: signed in as **@admin-edu4u** only (e.g. edu4u.world@gmail.com).
+- If access fails, fix **admin-edu4u** (deploy key, sudo, settings). Do not switch to personal accounts.
+
 ## Database
 
 - Use this project's Supabase/Postgres only (env in `web/.env.local`, not other projects' URLs or keys).
 
 ## Hosting
 
-- **Cloudflare** (OpenNext + Wrangler in `web/`) for this app. Do not deploy Edu4u to Vercel or other projects' hosts unless the user explicitly changes that.
+- **Cloudflare** (OpenNext + Wrangler in `web/`, account tied to edu4u.world@gmail.com). Do not deploy Edu4u to Vercel or other projects' hosts unless the user explicitly changes that.
 
 ## Agent behavior
 
-- Prefer admin-edu4u browser session or project deploy keys over `gh` logged in as another user.
-- When suggesting auth, point to **this project's** accounts, not generic "your GitHub" if that implies the wrong identity.
+- Before `git push` or `gh repo`/`gh api` for Edu4u, confirm the path is admin-edu4u, not Benjamin0828.
+- Prefer admin-edu4u browser session and the deploy key over default CLI credentials.
