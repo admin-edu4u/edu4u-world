@@ -5,6 +5,10 @@ import { getLocale } from "@/lib/i18n/locale";
 export const metadata: Metadata = {
   title: "Edu4u",
   description: "Find your path to the right university, course, and scholarship",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
 };
 
 const htmlLang: Record<string, string> = {
@@ -40,7 +44,6 @@ export default async function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
-        <link rel="icon" href="/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>
