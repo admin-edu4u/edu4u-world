@@ -1,0 +1,11 @@
+.credentials/
+*.sql
+*.sql.gz
+*.tar.gz
+source/public_html/vendor/
+source/public_html/node_modules/
+source/public_html/.env
+.env
+.env.*
+.tmp_*
+.tmp_import*
