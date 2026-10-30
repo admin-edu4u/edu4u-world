@@ -1,0 +1,26 @@
+---
+description: Edu4u uses dedicated GitHub, database, and hosting accounts only
+alwaysApply: true
+---
+
+# Project account isolation (Edu4u)
+
+This workspace is **Edu4u**. Do not use other projects' or personal accounts for Git, database, or hosting.
+
+## GitHub
+
+- **Canonical repo**: `admin-edu4u/edu4u.world` (org/user **admin-edu4u** only).
+- Do **not** use `Benjamin0828` or other GitHub identities for pushes, PRs, or repo management in this project.
+- If CLI auth fails with 403, fix access on **admin-edu4u** (deploy key, org settings, or browser as @admin-edu4u). Do not add personal accounts as a default workaround.
+## Database
+
+- Use this project's Supabase/Postgres only (env in `web/.env.local`, not other projects' URLs or keys).
+
+## Hosting
+
+- **Cloudflare** (OpenNext + Wrangler in `web/`) for this app. Do not deploy Edu4u to Vercel or other projects' hosts unless the user explicitly changes that.
+
+## Agent behavior
+
+- Prefer admin-edu4u browser session or project deploy keys over `gh` logged in as another user.
+- When suggesting auth, point to **this project's** accounts, not generic "your GitHub" if that implies the wrong identity.
