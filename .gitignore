@@ -10,6 +10,8 @@ source/public_html/.env
 .env.backup
 .tmp_*
 .tmp_import*
+deploy/*.zip
+deploy/site.zip
 /node_modules
 /public/hot
 /public/storage
